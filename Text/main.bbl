@@ -7,6 +7,16 @@
 \ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
 \ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
 
+\bibitem{h36m_pami}
+\selectlanguageifdefined{english}
+Human3.6M: Large Scale Datasets and Predictive Methods for 3D Human Sensing in
+  Natural Environments~/ Catalin~Ionescu, Dragos~Papava, Vlad~Olaru,
+  Cristian~Sminchisescu~// \BibEmph{IEEE Transactions on Pattern Analysis and
+  Machine Intelligence}. ---
+\newblock 2014. --- jul. ---
+\newblock Vol.~36, no.~7. ---
+\newblock Pp.~1325--1339.
+
 \bibitem{WANG2021103225}
 \selectlanguageifdefined{english}
 Deep 3D human pose estimation: A review~/ Jinbao~Wang, Shujie~Tan,
@@ -71,6 +81,14 @@ OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields~/
 {RMPE}: Regional Multi-person Pose Estimation~/ Hao-Shu~Fang, Shuqin~Xie,
   Yu-Wing~Tai, Cewu~Lu~// ICCV. ---
 \newblock 2017.
+
+\bibitem{s20174944}
+\selectlanguageifdefined{english}
+Prediction of Human Activities Based on a New Structure of Skeleton Features
+  and Deep Learning Model~/ Neziha~Jaouedi, Francisco~J.~Perales,
+  José~Maria~Buades et~al.~// \BibEmph{Sensors}. ---
+\newblock 2020. ---
+\newblock Vol.~20, no.~17. \BibUrl{ https://www.mdpi.com/1424-8220/20/17/4944}.
 
 \bibitem{mmpose2020}
 \selectlanguageifdefined{english}

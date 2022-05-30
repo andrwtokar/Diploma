@@ -4,6 +4,30 @@
 \contentsline {subsection}{\numberline {2.1}Задача распознавания ключевых точек на теле человека}{8}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Задача классификации движений/позы человека}{8}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Обзор существующих моделей}{9}{section.3}%
-\contentsline {section}{\numberline {4}Поиск данных}{10}{section.4}%
-\contentsline {section}{\numberline {5}Эксперимент/Исследование}{11}{section.5}%
-\contentsline {section}{\numberline {6}Заключение}{12}{section.6}%
+\contentsline {subsection}{\numberline {3.1}Модели для распознавания ключевых точек на теле человека}{9}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}BlazePose by MediaPipe}{9}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}MoveNet.SinglePose.lightning by TensorFlowHub}{9}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}OpenPose by ...}{9}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}MMPose by OpenMMlab}{9}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}AlphaPose}{9}{subsubsection.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.6}Detectron2 by FacebookResearch}{9}{subsubsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.2}Модели для классификации позы человека}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}MMaction2 by OpenMMlab}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}BlazePose by MediaPipe}{10}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}mmakos}{10}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}HPC}{10}{subsubsection.3.2.4}%
+\contentsline {section}{\numberline {4}Поиск данных}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Data for Pose Estimation}{11}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}LSP}{11}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}MPII HRD}{11}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}COCO keipoints}{11}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Data for Pose Classification}{11}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}HPC/mmakos}{11}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}MPII}{11}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Yoga-82}{11}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Not Available data}{11}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Human3.6M}{11}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Surreal}{11}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}BUFF}{11}{subsubsection.4.3.3}%
+\contentsline {section}{\numberline {5}Эксперимент/Исследование}{12}{section.5}%
+\contentsline {section}{\numberline {6}Заключение}{13}{section.6}%
