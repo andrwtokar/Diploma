@@ -97,6 +97,12 @@ Prediction of Human Activities Based on a New Structure of Skeleton Features
 \newblock \url{https://github.com/open-mmlab/mmpose}. ---
 \newblock 2020.
 
+\bibitem{li2020pastanet}
+\selectlanguageifdefined{english}
+PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
+  Xinpeng~Liu et~al.~// CVPR. ---
+\newblock 2020.
+
 \bibitem{https://doi.org/10.48550/arxiv.2006.10204}
 \selectlanguageifdefined{english}
 \BibEmph{Bazarevsky,~Valentin}. BlazePose: On-device Real-time Body Pose

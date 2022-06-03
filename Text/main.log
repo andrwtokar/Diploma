@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.2)  31 MAY 2022 01:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.2)  4 JUN 2022 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1143,7 +1143,7 @@ LaTeX Info: Redefining \nameref on input line 13.
 \openout4 = `main.out'.
 
  (./include/title.tex
-<images/MIPT_logo.jpg, id=136, 803.0pt x 401.5pt>
+<images/MIPT_logo.jpg, id=144, 803.0pt x 401.5pt>
 File: images/MIPT_logo.jpg Graphic file (type jpg)
 <use images/MIPT_logo.jpg>
 Package pdftex.def Info: images/MIPT_logo.jpg  used on input line 42.
@@ -1227,8 +1227,13 @@ LaTeX Font Warning: Font shape `PU/cmr/m/up' undefined
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [3] (./parts/Chapter0.tex [4] [5] [6] [7]) (./parts/Chapter1.tex [8])
-(./parts/Chapter2.tex [9] [10]) (./parts/Chapter3.tex [11])
+ [3] (./parts/Chapter0.tex [4] [5] [6]) (./parts/Chapter1.tex [7]
+Overfull \hbox (1.79199pt too wide) in paragraph at lines 31--32
+[]\T2A/cmr/m/n/12 ƒ”Ã¿ﬁ “”“ —“Œ-»“ œ–Œ-ƒŒÀ-∆»“‹ »« –¿«-ƒ≈-À¿ ÃÕŒ-√Œ “≈Œ-–»» ƒÀﬂ
+
+ []
+
+[8]) (./parts/Chapter2.tex [9] [10]) (./parts/Chapter3.tex [11])
 (./parts/Chapter4.tex [12]) (./parts/Chapter5.tex [13]) (./main.bbl
 Underfull \hbox (badness 2080) in paragraph at lines 12--19
 []\T2A/cmr/m/n/12 Human3.6M: Large Scale Datasets and Predictive Methods for 3D
@@ -1251,14 +1256,14 @@ Underfull \hbox (badness 1137) in paragraph at lines 22--29
 ncedirect . com / science / article / pii /
  []
 
-) [14]
+[14]) [15]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4F0D33B2EB6FF165EB8DDD599E4B6FA1;5952.
+(rerunfilecheck)             Checksum: 373C74D7AF8D545D4B764C74AE2A0085;6479.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1266,13 +1271,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
  ) 
 Here is how much of TeX's memory you used:
- 25697 strings out of 481239
- 455456 string characters out of 5920378
- 689842 words of memory out of 5000000
- 40336 multiletter control sequences out of 15000+600000
+ 25713 strings out of 481239
+ 455663 string characters out of 5920378
+ 691234 words of memory out of 5000000
+ 40344 multiletter control sequences out of 15000+600000
  549349 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,62p,2112b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,62p,2112b,494s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texmf
 /fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/
 cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pf
@@ -1282,10 +1287,10 @@ m-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sftt1200.pfb>
-Output written on main.pdf (14 pages, 298683 bytes).
+Output written on main.pdf (15 pages, 300424 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 358 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 
