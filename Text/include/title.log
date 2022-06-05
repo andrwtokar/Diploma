@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.2)  18 MAY 2022 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.2)  5 JUN 2022 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,15 +22,6 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--1
 [] 
  []
-
-! Undefined control sequence.
-l.3     \large
-              \textbf{Министерство образования и н�...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 ! Package inputenc Error: Unicode character М (U+041C)
@@ -5784,7 +5775,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.54 \fancyhead
-               [L]{Исследование и разработка мето...
+               [L]{Исследование методов классифи�...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -5803,7 +5794,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{И
-                     сследование и разработка мето...
+                     сследование методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5817,7 +5808,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Ис
-                       следование и разработка мето...
+                       следование методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5831,7 +5822,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Исс
-                         ледование и разработка мето...
+                         ледование методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5845,7 +5836,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Иссл
-                           едование и разработка мето...
+                           едование методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5859,7 +5850,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Иссле
-                             дование и разработка мето...
+                             дование методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5873,7 +5864,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Исслед
-                               ование и разработка мето...
+                               ование методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5887,7 +5878,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Исследо
-                                 вание и разработка мето...
+                                 вание методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5901,7 +5892,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Исследов
-                                   ание и разработка мето...
+                                   ание методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5915,7 +5906,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Исследова
-                                     ние и разработка мето...
+                                     ние методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5929,7 +5920,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Исследован
-                                       ие и разработка мето...
+                                       ие методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5943,7 +5934,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Исследовани
-                                         е и разработка мето...
+                                         е методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -5957,161 +5948,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.54 \fancyhead[L]{Исследование
-                                            и разработка мето...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character и (U+0438)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 \fancyhead[L]{Исследование и
-                                               разработка мето...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character р (U+0440)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 \fancyhead[L]{Исследование и р
-                                                 азработка мето...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character а (U+0430)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...cyhead[L]{Исследование и ра
-                                                  зработка мето�...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character з (U+0437)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...head[L]{Исследование и раз
-                                                  работка метод�...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character р (U+0440)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...ad[L]{Исследование и разр
-                                                  аботка методо�...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character а (U+0430)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...[L]{Исследование и разра
-                                                  ботка методов ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character б (U+0431)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...]{Исследование и разраб
-                                                  отка методов м...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character о (U+043E)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...Исследование и разрабо
-                                                  тка методов ма...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character т (U+0442)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...сследование и разработ
-                                                  ка методов маш...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character к (U+043A)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...следование и разработк
-                                                  а методов маши...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! Package inputenc Error: Unicode character а (U+0430)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...ледование и разработка
-                                                   методов машин...
+                                            методов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6124,8 +5961,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...�дование и разработка м
-                                                  етодов машинн�...
+l.54 \fancyhead[L]{Исследование м
+                                              етодов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6138,8 +5975,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...�ование и разработка ме
-                                                  тодов машинно�...
+l.54 \fancyhead[L]{Исследование ме
+                                                тодов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6152,8 +5989,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...�вание и разработка мет
-                                                  одов машинног�...
+l.54 \fancyhead[L]{Исследование мет
+                                                  одов классифи�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6166,8 +6003,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...�ание и разработка мето
-                                                  дов машинного ...
+l.54 ...yhead[L]{Исследование мето
+                                                  дов классифик�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6180,8 +6017,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...�ние и разработка метод
-                                                  ов машинного о...
+l.54 ...ead[L]{Исследование метод
+                                                  ов классифика�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6194,8 +6031,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...�ие и разработка методо
-                                                  в машинного об...
+l.54 ...d[L]{Исследование методо
+                                                  в классификац�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6208,22 +6045,36 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...�е и разработка методов
-                                                   машинного обу...
+l.54 ...L]{Исследование методов
+                                                   классификаци�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character м (U+043C)
+! Package inputenc Error: Unicode character к (U+043A)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ... и разработка методов м
-                                                  ашинного обуч�...
+l.54 ...Исследование методов к
+                                                  лассификации �...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character л (U+043B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...сследование методов кл
+                                                  ассификации д�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6236,22 +6087,36 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...� разработка методов ма
-                                                  шинного обуче�...
+l.54 ...следование методов кла
+                                                  ссификации дв�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character ш (U+0448)
+! Package inputenc Error: Unicode character с (U+0441)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...разработка методов маш
-                                                  инного обучен�...
+l.54 ...ледование методов клас
+                                                  сификации дви�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character с (U+0441)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...едование методов класс
+                                                  ификации движ�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6264,125 +6129,161 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...азработка методов маши
-                                                  нного обучения}
+l.54 ...дование методов класси
+                                                  фикации движе�...
+
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character н (U+043D)
+! Package inputenc Error: Unicode character ф (U+0444)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...зработка методов машин
-                                                  ного обучения}
+l.54 ...ование методов классиф
+                                                  икации движен�...
+
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character н (U+043D)
+! Package inputenc Error: Unicode character и (U+0438)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...работка методов машинн
-                                                  ого обучения}
+l.54 ...вание методов классифи
+                                                  кации движени�...
+
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character о (U+043E)
+! Package inputenc Error: Unicode character к (U+043A)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...аботка методов машинно
-                                                  го обучения}
+l.54 ...ание методов классифик
+                                                  ации движений ...
+
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character г (U+0433)
+! Package inputenc Error: Unicode character а (U+0430)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...ботка методов машинног
-                                                  о обучения}
+l.54 ...ние методов классифика
+                                                  ции движений ч...
+
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character о (U+043E)
+! Package inputenc Error: Unicode character ц (U+0446)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...отка методов машинного
-                                                   обучения}
+l.54 ...ие методов классификац
+                                                  ии движений че...
+
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character о (U+043E)
+! Package inputenc Error: Unicode character и (U+0438)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...�ка методов машинного о
-                                                  бучения}
+l.54 ...е методов классификаци
+                                                  и движений чел...
+
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character б (U+0431)
+! Package inputenc Error: Unicode character и (U+0438)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...�а методов машинного об
-                                                  учения}
+l.54 ... методов классификации
+                                                   движений чело...
+
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character у (U+0443)
+! Package inputenc Error: Unicode character д (U+0434)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...� методов машинного обу
-                                                  чения}
+l.54 ...етодов классификации д
+                                                  вижений челов�...
+
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character ч (U+0447)
+! Package inputenc Error: Unicode character в (U+0432)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...методов машинного обуч
-                                                  ения}
+l.54 ...тодов классификации дв
+                                                  ижений челове�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character и (U+0438)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...одов классификации дви
+                                                  жений человека}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ж (U+0436)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...дов классификации движ
+                                                  ений человека}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -6394,8 +6295,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...етодов машинного обуче
-                                                  ния}
+l.54 ...ов классификации движе
+                                                  ний человека}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -6407,8 +6308,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...тодов машинного обучен
-                                                  ия}
+l.54 ...в классификации движен
+                                                  ий человека}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -6420,20 +6321,124 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...одов машинного обучени
-                                                  я}
+l.54 ... классификации движени
+                                                  й человека}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! Package inputenc Error: Unicode character я (U+044F)
+! Package inputenc Error: Unicode character й (U+0439)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ...дов машинного обучения
+l.54 ...�лассификации движений
+                                                   человека}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ч (U+0447)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...ассификации движений ч
+                                                  еловека}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...ссификации движений че
+                                                  ловека}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character л (U+043B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...сификации движений чел
+                                                  овека}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character о (U+043E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...ификации движений чело
+                                                  века}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character в (U+0432)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...фикации движений челов
+                                                  ека}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...икации движений челове
+                                                  ка}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character к (U+043A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...кации движений человек
+                                                  а}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character а (U+0430)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...ации движений человека
                                                   }
 You may provide a definition with
 \DeclareUnicodeCharacter 
