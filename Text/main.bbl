@@ -149,6 +149,21 @@ PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
 \newblock \url{https://github.com/open-mmlab/mmpose}. ---
 \newblock 2020.
 
+\bibitem{MPII_dataset}
+\selectlanguageifdefined{english}
+2D Human Pose Estimation: New Benchmark and State of the Art Analysis~/
+  Mykhaylo~Andriluka, Leonid~Pishchulin, Peter~Gehler, Bernt~Schiele~// IEEE
+  Conference on Computer Vision and Pattern Recognition (CVPR). ---
+\newblock 2014. --- June.
+
+\bibitem{LSP}
+\selectlanguageifdefined{english}
+\BibEmph{Johnson,~Sam}. Clustered Pose and Nonlinear Appearance Models for
+  Human Pose Estimation~/ Sam~Johnson, Mark~Everingham~// Proceedings of the
+  British Machine Vision Conference. ---
+\newblock 2010. ---
+\newblock doi:10.5244/C.24.12.
+
 \bibitem{simon2017hand}
 \selectlanguageifdefined{english}
 Hand Keypoint Detection in Single Images using Multiview Bootstrapping~/

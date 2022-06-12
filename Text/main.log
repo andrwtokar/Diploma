@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.2)  11 JUN 2022 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.2)  13 JUN 2022 02:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1311,28 +1311,28 @@ Overfull \hbox (10.07617pt too wide) in paragraph at lines 48--50
  []
 
 [15 <./images/MPPose/architecture.jpg>] [16] [17]) (./parts/Chapter4.tex
-[18]
-Overfull \hbox (28.14995pt too wide) in paragraph at lines 38--41
-\T2A/cmr/m/n/14.4 Данная мет-ри-ка яв-ля-ет-ся ос-нов-ной при оцен-ке за-да-чи 
-Keypoint Detection
- []
-
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+[18] [19]
+<./images/PDJ.jpeg, id=303, 1405.25pt x 934.49126pt>
+File: ./images/PDJ.jpeg Graphic file (type jpg)
+<use ./images/PDJ.jpeg>
+Package pdftex.def Info: ./images/PDJ.jpeg  used on input line 50.
+(pdftex.def)             Requested size: 364.19528pt x 242.192pt.
+ [20 <./images/PDJ.jpeg (PNG copy)>] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-[21] [22]) (./parts/Chapter5.tex [23]) (./main.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+[23] [24]) (./parts/Chapter5.tex [25]) (./main.bbl
 Underfull \hbox (badness 3396) in paragraph at lines 12--19
 []\T2A/cmr/m/n/14.4 Human3.6M: Large Scale Datasets and Predictive Methods for
  []
@@ -1370,7 +1370,7 @@ Underfull \hbox (badness 1005) in paragraph at lines 53--59
 ce\T2A/cmr/m/n/14.4 . ---  1996. ---
  []
 
-[24]
+[26]
 Underfull \hbox (badness 1348) in paragraph at lines 81--84
 []\T2A/cmr/m/n/14.4 RMPE: Regional Multi-person Pose Estimation / Hao-Shu Fang,
 
@@ -1409,61 +1409,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--127
 g . com / 2020 / 12 /
  []
 
-[25]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 141--144
 []\T2A/cmr/m/it/14.4 Sandler, Mark\T2A/cmr/m/n/14.4 . MobileNetV2: Inverted Res
 iduals and Linear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 1043) in paragraph at lines 154--158
+\T2A/cmr/m/n/14.4 Analysis / Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehle
+r,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--172
 []\T2A/cmr/m/n/14.4 Hand Keypoint Detection in Single Images using Multiview
  []
 
 
-Underfull \hbox (badness 5787) in paragraph at lines 154--157
+Underfull \hbox (badness 5787) in paragraph at lines 169--172
 \T2A/cmr/m/n/14.4 Bootstrapping / Tomas Simon, Hanbyul Joo, Iain Matthews,
  []
 
-) [26]
+) [28]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7737CBF1710DF4A8EE4DC424FA338B0B;4685.
+(rerunfilecheck)             Checksum: 727100B8199FBA05E2F471882B4CE5AA;4675.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 35.
  ) 
 Here is how much of TeX's memory you used:
- 25861 strings out of 481239
- 460098 string characters out of 5920378
- 690813 words of memory out of 5000000
- 40469 multiletter control sequences out of 15000+600000
+ 25887 strings out of 481239
+ 460435 string characters out of 5920378
+ 691087 words of memory out of 5000000
+ 40482 multiletter control sequences out of 15000+600000
  547640 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,12n,62p,2112b,494s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texmf
-/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public
-/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1728.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on main.pdf (26 pages, 1021047 bytes).
+/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfti1728.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sftt1440.pfb>
+Output written on main.pdf (28 pages, 2017491 bytes).
 PDF statistics:
- 410 PDF objects out of 1000 (max. 8388607)
- 354 compressed objects within 4 object streams
- 86 named destinations out of 1000 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 459 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
