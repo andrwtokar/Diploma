@@ -32,7 +32,7 @@
 
 \begin{itemize}
 	\item Percentage of Detection Joints\\
-	PDJ оценивает точность распознавания ключевой точки в зависимости от диагональных размеров человека. При рассмотрении задачи распознавания человека мы получаем координаты точек, которые характеризуют прямоугольник, внутри которого вписан человек. Диагональ этого прямоугольника используется при высчитывании метрики PDJ (см. рис \autoref{fig:PDJ}). Формулу можно представить в следующем виде:
+	PDJ оценивает точность распознавания ключевой точки в зависимости от диагональных размеров человека. При рассмотрении задачи распознавания человека мы получаем координаты точек, которые характеризуют прямоугольник, внутри которого вписан человек. Диагональ этого прямоугольника используется при высчитывании метрики PDJ (см. \autoref{fig:PDJ}). Формулу можно представить в следующем виде:
 	\begin{equation}
 		PDJ = \frac{\sum_{i=1}^{n} bool(d_i < threshold * diag)}{n},
 	\end{equation}
@@ -85,7 +85,7 @@
 
 \subsection{Поиск данных}
 
-Первым делом необходимо было проверить модели на неразмеченных данных. Для этого были выбраны фотографии высокого разрешения, где человек изобраен во весь рост. (см. рис \autoref{fig:test_photos})
+Первым делом необходимо было проверить модели на неразмеченных данных. Для этого были выбраны фотографии высокого разрешения, где человек изобраен во весь рост. (см. \autoref{fig:test_photos})
 
 Для качественной оценки работы моделей с помощью метрик необходимо было найти размеченные данные. Приведу описание датасетов, которые были мной рассмотрены:
 
@@ -125,20 +125,20 @@
 
 Выше были представлены наборы данных для задачи распознавания точек на теле человека. Но основной темой является классификация движений человека. Поэтому необходимы фотографии с меткой класса для позы, представленной на данных. Некоторые из уже представленных (COCO, MPII) тоже могут использоваться для классификации позы, но по тем же причинам, что и описаны выше, они не будут рассмотрены в эксперименте. Приведу описание датасетов для классификации движения человека по позе на изображении:
 
+
+(ДВА ДАТАСЕТА ОПИШУ, ЕСЛИ ДОПИШУ ВТОРУЮ ЧАСТЬ РАБОТЫ)
 \begin{itemize}
-	\item HPC/mmakos (ССЫЛКА)\\
-	Убедиться в реальной работоспобобности датасета
 	\item Stanford-40 (ССЫЛКА)\\
 	\item Yoga-82 (ССЫЛКА)\\
 \end{itemize}
 
-Итого были выбраны наборы данных: LSP и ... (ФОТОГРАФИИ ИЗ ДАТАСЕТА)
+Итого был выбран набор данных LSP. (ФОТОГРАФИИ ИЗ ДАТАСЕТА)
 
-\subsection{Полученные результаты эксперимента}
+\subsection{Результаты эксперимента}
 
 Рассмотрим результаты первой части работы.
 
-Для каждой модели была рассмотрена локализация ключевых точек на фотографиях высокого качества (см. рис \autoref{fig:test_photos}), а также набор данных низкого качества с обработанными изображениями.
+Для каждой модели была рассмотрена локализация ключевых точек на фотографиях высокого качества (см. \autoref{fig:test_photos}), а также набор данных низкого качества с обработанными изображениями.
 
 Метрики были рассчитаны с порогами 0.05, 0.2, 0.5. В дополнение к этому был проведен временной анализ классификации одного изображения в среднем по целому датасету.
 
@@ -151,52 +151,26 @@
 	\end{large}
 }
 
-Результаты работы модели можно посмотреть на рис. \autoref{fig:MP_result}. Как можно заметить, некотороы точки не распознаются и не отображаются на итоговом результате. А также есть небольшая погрешность при распознавании глаз. Но модель хорошо сработала на человека в маске.
+Результаты работы модели можно посмотреть на \autoref{fig:MP_result}. Как можно заметить, некоторые точки не распознаются и не отображаются на итоговом результате. А также есть небольшая погрешность при распознавании глаз. Но модель хорошо сработала на человека в маске.
 
-Исходя из значений метрик (см. таб. \autoref{tab:MP_table}) можно сделать вывод, что модель имеет высокую погрешность при среднем времени обработки одной фотографии 0.063 секунды. 
-
-\begin{figure}[h]
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-	\includegraphics[width=\textwidth]{./images/MPPose/19}
-	\caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[width=\textwidth]{./images/MPPose/23}
-    \caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[height=\textwidth]{./images/MPPose/36}
-    \caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[height=\textwidth]{./images/MPPose/33}
-    \caption{ }
-\end{subfigure}
-    \caption{Пример результатов работы модели BlazePose.}
-    \label{fig:MP_result}
-\end{figure}
+Исходя из значений метрик (см. в \autoref{tab:MP_table}) можно сделать вывод, что модель имеет высокую погрешность при среднем времени обработки одной фотографии 0.063 секунды.
 
 \begin{table}[h]
-\centering
-\begin{tabular}{|p{3cm}||p{3cm}|p{3cm}|p{3cm}|}
- \hline
- Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
- \hline
- PDJ & 0.042 & 0.359 & 0.815\\
- PCK & 0.035 & 0.304 & 0.741\\
- \hline\hline
- Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
- AP & 0.012 & 0.004 & 0.006\\
- \hline
-\end{tabular}
-\caption{Результаты вычисления метрик.}
-\label{tab:MP_table}
+	\centering
+	\begin{tabular}{|p{3cm}||p{3cm}|p{3cm}|p{3cm}|}
+		\hline
+		Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
+		\hline
+		PDJ & 0.042 & 0.359 & 0.815\\
+		PCK & 0.035 & 0.304 & 0.741\\
+		\hline\hline
+		Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
+		AP & 0.012 & 0.004 & 0.006\\
+		\hline
+	\end{tabular}
+	\caption{Результаты вычисления метрик для BlazePose.}
+	\label{tab:MP_table}
 \end{table}
-\hfill \break
 
 \textbf{
 	\begin{large}
@@ -204,53 +178,26 @@
 	\end{large}
 }
 
-Результаты работы модлеи можно посмотреть на рис. \autoref{fig:MN_result}. Как можно заметить, некоторые точки не распознаются и не отображаются на итоговом результате. 
+Результаты работы модели можно посмотреть на \autoref{fig:MN_result}. Заметны огрехи в распознавании локтей и ладоней. Как и в прошлой модели есть неточности при распознавании частей лица.
 
-Исходя из значений метрик (см. таб. \autoref{tab:MN_table}) можно сделать вывод, что модель имеет высокую погрешность при среднем времени обработки одной фотографии 0.009 секунды.
-
-\begin{figure}[p]
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-	\includegraphics[width=\textwidth]{./images/MoveNet/19}
-	\caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[width=\textwidth]{./images/MoveNet/23}
-    \caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[height=\textwidth]{./images/MoveNet/36}
-    \caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[height=\textwidth]{./images/MoveNet/33}
-    \caption{ }
-\end{subfigure}
-    \caption{Пример результатов работы модели MoveNet.SinglePose.}
-    \label{fig:MN_result}
-\end{figure}
+Исходя из значений метрик (см. в \autoref{tab:MN_table}) можно сделать вывод, что модель показала себя плохо при оценивании с порогом 0.05, но лучший результат среди всех для порогах 0.2 и 0.5. Среднее время обработки одной фотографии составило 0.009 секунды, что также является наилучшим показателем.
 
 \begin{table}[h]
-\centering
-\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
- \hline
- Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
- \hline
- PDJ & 0.43 & 0.95 & 0.993\\
- PCK & 0.356 & 0.928 & 0.983 \\
- \hline\hline
- Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
- AP & 0.168 & 0.064 & 0.08\\
- \hline
-\end{tabular}
-\caption{Результаты вычисления метрик.}
-\label{tab:MN_table}
+	\centering
+	\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
+		\hline
+		Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
+		\hline
+		PDJ & 0.43 & 0.95 & 0.993\\
+		PCK & 0.356 & 0.928 & 0.983 \\
+		\hline\hline
+		Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
+		AP & 0.168 & 0.064 & 0.08\\
+		\hline
+	\end{tabular}
+	\caption{Результаты вычисления метрик для MoveNet.SinglePose.}
+	\label{tab:MN_table}
 \end{table}
-\hfill \break
-
 
 \textbf{
 	\begin{large}
@@ -258,50 +205,30 @@
 	\end{large}
 }
 
-Результаты работы модели можно посмотреть на рис. \autoref{fig:OP_result}. Как можно заметить, некотороы точки не распознаются и не отображаются на итоговом результате. Исходя из значений метрик (см. таб. \autoref{tab:OP_table}) можно сделать вывод, что модель имеет высокую погрешность при среднем времени обработки одной фотографии 0.037 секунды.
+Результаты работы модели можно посмотреть на \autoref{fig:OP_result}.\\
+Значения метрик см. в \autoref{tab:OP_table}.\\
+Среднее время обработки одной фотографии составило 0.037 секунды.
 
-\begin{figure}[h]
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-	\includegraphics[width=\textwidth]{./images/OpenPose/19}
-	\caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[width=\textwidth]{./images/OpenPose/23}
-    \caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[height=\textwidth]{./images/OpenPose/36}
-    \caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[height=\textwidth]{./images/OpenPose/33}
-    \caption{ }
-\end{subfigure}
-    \caption{Пример результатов работы модели OpenPose.}
-    \label{fig:OP_result}
-\end{figure}
+Визуально лучший результат обработки изображений, хотя по метрикам немного уступает следующей модели. Но полностью обыгрывает ее во времени обработки.
+
+Среднем времени обработки одной фотографии 0.037 секунды.
 
 \begin{table}[h]
-\centering
-\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
- \hline
- Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
- \hline
- PDJ & 0.746 & 0.845 & 0.899\\
- PCK & 0.708 & 0.837 & 0.882 \\
- \hline\hline
- Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
- AP & 0.166 & 0.085 & 0.092\\
- \hline
-\end{tabular}
-\caption{Результаты вычисления метрик.}
-\label{tab:OP_table}
+	\centering
+	\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
+		\hline
+		Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
+		\hline
+		PDJ & 0.746 & 0.845 & 0.899\\
+		PCK & 0.708 & 0.837 & 0.882 \\
+		\hline\hline
+		Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
+		AP & 0.166 & 0.085 & 0.092\\
+		\hline
+	\end{tabular}
+	\caption{Результаты вычисления метрик для OpenPose.}
+	\label{tab:OP_table}
 \end{table}
-\hfill \break
 
 \textbf{
 	\begin{large}
@@ -309,52 +236,30 @@
 	\end{large}
 }
 
-Результаты работы модлеи можно посмотреть на рис. \autoref{fig:MMP_result}. Как можно заметить, некотороы точки не распознаются и не отображаются на итоговом результате. Исходя из значений метрик (см. таб. \autoref{tab:MMP_table}) можно сделать вывод, что модель имеет высокую погрешность при среднем времени обработки одной фотографии 0.409 секунды.
+Результаты работы модели можно посмотреть на \autoref{fig:MMP_result}.\\
+Значения метрик см. в \autoref{tab:MMP_table}.\\
+Среднее время обработки одной фотографии составило 0.409 секунды.
 
-\begin{figure}[h]
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-	\includegraphics[width=\textwidth]{./images/MMPose/19}
-	\caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[width=\textwidth]{./images/MMPose/23}
-    \caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[height=\textwidth]{./images/MMPose/36}
-    \caption{ }
-\end{subfigure}
-\begin{subfigure}[b]{.5\textwidth}
-	\centering
-    \includegraphics[height=\textwidth]{./images/MMPose/33}
-    \caption{ }
-\end{subfigure}
-    \caption{Пример результатов работы модели MMPose.}
-    \label{fig:MMP_result}
-\end{figure}
+Для своей работы требует детекции человека, из-за чего показывает лучший результат в точности, но худший результат по времени обработки одного изображения.
 
 \begin{table}[h]
 \centering
 \begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
- \hline
- Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
- \hline
- PDJ & 0.76 & 0.858 & 0.933\\
- PCK & 0.728 & 0.85 & 0.914 \\
- \hline\hline
- Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
- AP & 0.225 & 0.223 & 0.123\\
- \hline
+\hline
+Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
+\hline
+PDJ & 0.76 & 0.858 & 0.933\\
+PCK & 0.728 & 0.85 & 0.914 \\
+\hline\hline
+Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
+AP & 0.225 & 0.223 & 0.123\\
+\hline
 \end{tabular}
-\caption{Результаты вычисления метрик.}
+\caption{Результаты вычисления метрик для MMPose.}
 \label{tab:MMP_table}
 \end{table}
 
-Вторую часть работы пишем...
-
-\hspace{\fill}
 \newpage
-\hspace{\fill}
+\newpage
+\hfill
+\newpage

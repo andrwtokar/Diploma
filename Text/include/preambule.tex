@@ -27,6 +27,14 @@
 \AddEnumerateCounter{\asbuk}{\russian@alph}{щ}
 \makeatother
 
+%% Создание списка литературы
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\bibliography}{%
+  \chapter*{\bibname}\@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}}{%
+  \section{Список литературы}}{}{}
+\makeatother
+
 %%% Работа с картинками
 \usepackage{caption}
 \usepackage{subcaption}

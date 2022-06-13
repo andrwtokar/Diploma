@@ -63,7 +63,7 @@ Learning from Synthetic Humans~/ G{\"u}l~Varol, Javier~Romero, Xavier~Martin
 \newblock
   \url{https://google.github.io/mediapipe/solutions/pose_classification.html}.
 
-\bibitem{8765346}
+\bibitem{OpenPose}
 \selectlanguageifdefined{english}
 OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields~/
   Z.~{Cao}, G.~{Hidalgo Martinez}, T.~{Simon} et~al.~// \BibEmph{IEEE
@@ -131,6 +131,17 @@ PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
   Xinpeng~Liu et~al.~// CVPR. ---
 \newblock 2020.
 
+\bibitem{pet_recognition}
+\selectlanguageifdefined{english}
+\BibEmph{Osokin,~Daniil}. Real-time 3D Multi-person Pose Estimation Demo. ---
+\newblock
+  \url{https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch}.
+
+\bibitem{pet_classification}
+\selectlanguageifdefined{english}
+\BibEmph{MAKOŚ,~MICHAŁ}. Human Pose Classification - BEng Thesis. ---
+\newblock \url{https://github.com/mmakos/HPC}.
+
 \bibitem{mediapipe}
 \selectlanguageifdefined{english}
 \BibEmph{google.github.io}. MediaPipe.Home. ---
@@ -141,6 +152,33 @@ PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
 \BibEmph{Sandler,~Mark}. MobileNetV2: Inverted Residuals and Linear
   Bottlenecks. ---
 \newblock 2019.
+
+\bibitem{OpenPose_first}
+\selectlanguageifdefined{english}
+\BibEmph{Cao,~Zhe}. Realtime Multi-Person 2D Pose Estimation using Part
+  Affinity Fields. ---
+\newblock 2016. \BibUrl{ https://arxiv.org/abs/1611.08050}.
+
+\bibitem{mmpose2020}
+\selectlanguageifdefined{english}
+\BibEmph{Contributors,~MMPose}. OpenMMLab Pose Estimation Toolbox and
+  Benchmark. ---
+\newblock \url{https://github.com/open-mmlab/mmpose}. ---
+\newblock 2020.
+
+\bibitem{STGCN}
+\selectlanguageifdefined{english}
+\BibEmph{Yan,~Sijie}. Spatial Temporal Graph Convolutional Networks for
+  Skeleton-Based Action Recognition. ---
+\newblock 2018. \BibUrl{ https://arxiv.org/abs/1801.07455}.
+
+\bibitem{DeepPose}
+\selectlanguageifdefined{english}
+\BibEmph{Toshev,~Alexander}. DeepPose: Human Pose Estimation via Deep Neural
+  Networks~/ Alexander~Toshev, Christian~Szegedy~// 2014 IEEE Conference on
+  Computer Vision and Pattern Recognition. ---
+\newblock 2014. ---
+\newblock Pp.~1653--1660.
 
 \bibitem{MPII_dataset}
 \selectlanguageifdefined{english}
@@ -156,20 +194,6 @@ PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
   British Machine Vision Conference. ---
 \newblock 2010. ---
 \newblock doi:10.5244/C.24.12.
-
-\bibitem{mmpose2020}
-\selectlanguageifdefined{english}
-\BibEmph{Contributors,~MMPose}. OpenMMLab Pose Estimation Toolbox and
-  Benchmark. ---
-\newblock \url{https://github.com/open-mmlab/mmpose}. ---
-\newblock 2020.
-
-\bibitem{OpenPose}
-\selectlanguageifdefined{english}
-OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields~/
-  Z.~Cao, G.~Hidalgo~Martinez, T.~Simon et~al.~// \BibEmph{IEEE Transactions on
-  Pattern Analysis and Machine Intelligence}. ---
-\newblock 2019.
 
 \bibitem{simon2017hand}
 \selectlanguageifdefined{english}
