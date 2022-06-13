@@ -92,8 +92,8 @@ Prediction of Human Activities Based on a New Structure of Skeleton Features
 
 \bibitem{COCO_topology}
 \selectlanguageifdefined{english}
-\BibEmph{Tsung-Yi~Lin~Matteo Ruggero~Ronchi,~Alexander Kirillov Yin~Cui}. COCO
-  2020 Keypoint Detection Task. ---
+\BibEmph{Tsung-Yi~Lin~Matteo Ruggero~Ronchi,~Alexander~Kirillov}. COCO 2020
+  Keypoint Detection Task. ---
 \newblock \url{https://cocodataset.org/#keypoints-2020}.
 
 \bibitem{COCO_dataset}
@@ -142,13 +142,6 @@ PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
   Bottlenecks. ---
 \newblock 2019.
 
-\bibitem{mmpose2020}
-\selectlanguageifdefined{english}
-\BibEmph{Contributors,~MMPose}. OpenMMLab Pose Estimation Toolbox and
-  Benchmark. ---
-\newblock \url{https://github.com/open-mmlab/mmpose}. ---
-\newblock 2020.
-
 \bibitem{MPII_dataset}
 \selectlanguageifdefined{english}
 2D Human Pose Estimation: New Benchmark and State of the Art Analysis~/
@@ -163,6 +156,20 @@ PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
   British Machine Vision Conference. ---
 \newblock 2010. ---
 \newblock doi:10.5244/C.24.12.
+
+\bibitem{mmpose2020}
+\selectlanguageifdefined{english}
+\BibEmph{Contributors,~MMPose}. OpenMMLab Pose Estimation Toolbox and
+  Benchmark. ---
+\newblock \url{https://github.com/open-mmlab/mmpose}. ---
+\newblock 2020.
+
+\bibitem{OpenPose}
+\selectlanguageifdefined{english}
+OpenPose: Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields~/
+  Z.~Cao, G.~Hidalgo~Martinez, T.~Simon et~al.~// \BibEmph{IEEE Transactions on
+  Pattern Analysis and Machine Intelligence}. ---
+\newblock 2019.
 
 \bibitem{simon2017hand}
 \selectlanguageifdefined{english}
