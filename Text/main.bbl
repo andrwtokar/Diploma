@@ -153,6 +153,16 @@ PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
   Bottlenecks. ---
 \newblock 2019.
 
+\bibitem{feature_piramid}
+\selectlanguageifdefined{english}
+\BibEmph{Lin,~Tsung-Yi}. Feature Pyramid Networks for Object Detection. ---
+\newblock 2016. \BibUrl{ https://arxiv.org/abs/1612.03144}.
+
+\bibitem{CenterNet}
+\selectlanguageifdefined{english}
+\BibEmph{Zhou,~Xingyi}. Objects as Points. ---
+\newblock 2019. \BibUrl{ https://arxiv.org/abs/1904.07850}.
+
 \bibitem{OpenPose_first}
 \selectlanguageifdefined{english}
 \BibEmph{Cao,~Zhe}. Realtime Multi-Person 2D Pose Estimation using Part
@@ -195,16 +205,33 @@ PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
 \newblock 2010. ---
 \newblock doi:10.5244/C.24.12.
 
-\bibitem{simon2017hand}
+\bibitem{LSPE}
 \selectlanguageifdefined{english}
-Hand Keypoint Detection in Single Images using Multiview Bootstrapping~/
-  Tomas~Simon, Hanbyul~Joo, Iain~Matthews, Yaser~Sheikh~// CVPR. ---
-\newblock 2017.
+\BibEmph{Johnson,~Sam}. Learning Effective Human Pose Estimation from
+  Inaccurate Annotation~/ Sam~Johnson, Mark~Everingham~// Proceedings of IEEE
+  Conference on Computer Vision and Pattern Recognition. ---
+\newblock 2011.
 
-\bibitem{wei2016cpm}
+\bibitem{Halpe_dataset}
 \selectlanguageifdefined{english}
-Convolutional pose machines~/ Shih-En~Wei, Varun~Ramakrishna, Takeo~Kanade,
-  Yaser~Sheikh~// CVPR. ---
-\newblock 2016.
+\BibEmph{Haoshu,~Fang}. Halpe Full-Body Human Keypoints and HOI-Det dataset.
+  ---
+\newblock \url{https://github.com/Fang-Haoshu/Halpe-FullBody}.
+
+\bibitem{stanford40}
+\selectlanguageifdefined{english}
+Human action recognition by learning bases of action attributes and parts~/
+  Bangpeng~Yao, Xiaoye~Jiang, Aditya~Khosla et~al. ---
+\newblock 2011. --- 11. ---
+\newblock Pp.~1331--1338.
+
+\bibitem{verma2020yoga}
+\selectlanguageifdefined{english}
+Yoga-82: A New Dataset for Fine-grained Classification of Human Poses~/
+  Manisha~Verma, Sudhakar~Kumawat, Yuta~Nakashima, Shanmuganathan~Raman~//
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
+  (CVPRW). ---
+\newblock 2020. ---
+\newblock Pp.~4472--4479.
 
 \end{thebibliography}

@@ -7,7 +7,7 @@
 
 Эксперимент, как и вся работа разделен на две части: исследование моделей распознавания ключевых точек на теле человека и исследование моделей классификации поз человека.
 
-В первой части работы были выбраны несколько моделей распознавания ключевых точек на теле человека и проведен их анализ. Для выбора моделей использовались некоторые критерии:
+В работе были выбраны несколько моделей распознавания ключевых точек на теле человека и проведен их анализ. Для выбора использовались некоторые критерии:
 
 \begin{itemize}
 	\item Доступность модели для исследований\\
@@ -81,22 +81,9 @@
 	При оценке задачи детекции ключевых точек COCO вводится метрика Average Precision (AP) через OKS. Изменяя границу допустимого значения OKS можно получать различные значения precision и AP.
 \end{itemize}
 
-(Если уcпею, то допишу вторую часть. Если нет, то просто уберу эти слова)
-
 \subsection{Поиск данных}
 
-Первым делом необходимо было проверить модели на неразмеченных данных. Для этого были выбраны фотографии высокого разрешения, где человек изобраен во весь рост. (см. \autoref{fig:test_photos})
-
-Для качественной оценки работы моделей с помощью метрик необходимо было найти размеченные данные. Приведу описание датасетов, которые были мной рассмотрены:
-
-\begin{itemize}
-	\item COCO Dataset и MPII\\
-	Данные наборы являются основными при работе с компьютерным зрением и большинство исследователей используют их как тренировочные для своих моделей. Поэтому использовать их в качестве тестовых не целесообразно. \cite{COCO_dataset, MPII_dataset}
-	\item HUMAN 3.6M\\
-	Данные собирались специально для задачи классификации движений человека в студии. С помощью датчиков фиксировались положения всех суставов и ключевых точек. Это идеальный датасет, но доступ к нему ограничен и создатель не выходит на связь. \cite{h36m_pami}
-	\item LSP\\
-	Данные собраны со спортивных соревнований и предобработаны до обозначения одного человека на изображении размером не менее 150 пикселей в высоту. Единственная проблема - не описаны точки на лице, поэтому оценивать можно только распознавание суставов или, другими словами, точек на теле человека. \cite{LSP}
-\end{itemize}
+Первым делом необходимо было проверить модели на неразмеченных данных. Для этого были выбраны фотографии высокого разрешения, где человек изображен во весь рост (см. \autoref{fig:test_photos}).
 
 \begin{figure}[h]
 \begin{subfigure}[b]{.5\textwidth}
@@ -106,33 +93,78 @@
 \end{subfigure}
 \begin{subfigure}[b]{.5\textwidth}
 	\centering
-    \includegraphics[width=\textwidth]{./images/Test/скамека3}
-    \caption{ }
+   \includegraphics[width=\textwidth]{./images/Test/скамека3}
+   \caption{ }
 \end{subfigure}
 \begin{subfigure}[b]{.5\textwidth}
 	\centering
-    \includegraphics[height=\textwidth]{./images/Test/dress}
-    \caption{ }
+   \includegraphics[height=\textwidth]{./images/Test/dress}
+   \caption{ }
 \end{subfigure}
 \begin{subfigure}[b]{.5\textwidth}
 	\centering
-    \includegraphics[height=\textwidth]{./images/Test/static}
-    \caption{ }
+   \includegraphics[height=\textwidth]{./images/Test/static}
+   \caption{ }
 \end{subfigure}
-    \caption{Изображения для визуальной оценки моделей.}
-    \label{fig:test_photos}
+   \caption{Изображения для визуальной оценки моделей.}
+   \label{fig:test_photos}
 \end{figure}
+
+Для качественной оценки работы моделей с помощью метрик необходимо было найти размеченные данные. Приведу описание датасетов, которые были мной рассмотрены:
+
+\begin{itemize}
+	\item COCO Dataset и MPII\\
+	Данные наборы являются основными при работе с компьютерным зрением и большинство исследователей используют их как тренировочные для своих моделей. Поэтому использовать их в качестве тестовых не целесообразно. \cite{COCO_dataset, MPII_dataset}
+	\item HUMAN 3.6M\\
+	Данные собирались специально для задачи классификации движений человека в студии. С помощью датчиков фиксировались положения всех суставов и ключевых точек. Это идеальный датасет, но доступ к нему ограничен и создатель не выходит на связь. \cite{h36m_pami}
+	\item LSP\\
+	Данные собраны со спортивных соревнований и пред обработаны до обозначения одного человека на изображении размером не менее 150 пикселей в высоту. Единственная проблема - не описаны точки на лице, поэтому оценивать можно только распознавание суставов или, другими словами, точек на теле человека. \cite{LSP}
+	\item LSP Extended\\
+	Является расширенной версией предыдущего набора данных. По объёму превосходит его в пять раз. Остальные характеристики не поменялись. \cite{LSPE}
+	\item Halpe\\
+	Датасет для распознавания точек на всем теле человека. К каждой фотографии идет аннотация из 136 точек, краев ограничивающего прямоугольника и категории детектируемого объекта (во всех фотографиях стоит категория человек).
+	
+	Набор состоит из двух частей: HICO-DET и COCO. Все они аннотированны описанные выше способом. Для наших моделей необходимо будет отобрать только 17 точек, совпадающих с топологией СОСО. \cite{Halpe_dataset}
+\end{itemize}
 
 Выше были представлены наборы данных для задачи распознавания точек на теле человека. Но основной темой является классификация движений человека. Поэтому необходимы фотографии с меткой класса для позы, представленной на данных. Некоторые из уже представленных (COCO, MPII) тоже могут использоваться для классификации позы, но по тем же причинам, что и описаны выше, они не будут рассмотрены в эксперименте. Приведу описание датасетов для классификации движения человека по позе на изображении:
 
 
-(ДВА ДАТАСЕТА ОПИШУ, ЕСЛИ ДОПИШУ ВТОРУЮ ЧАСТЬ РАБОТЫ)
 \begin{itemize}
-	\item Stanford-40 (ССЫЛКА)\\
-	\item Yoga-82 (ССЫЛКА)\\
+	\item Stanford-40\\
+	Набор данных состоит примерно из 10 тыс. изображений, на каждом из которых человек делает одно из 40 действий. На один класс приходится от 180 до 300 фотографий. \cite{stanford40}
+	\item Yoga-82\\
+	Сложность распознавания поз йоги в том, что многие из них не могут быть точно аннотированы. Для решения этой проблемы и был собран этот набор данных вмещающий примерно 28 тыс. изображений. 82 различные позы разделены по 6 подклассам. При желании можно использовать метки и классов, и подклассов для классификации. \cite{verma2020yoga}
 \end{itemize}
 
-Итого был выбран набор данных LSP. (ФОТОГРАФИИ ИЗ ДАТАСЕТА)
+Итого были выбраны наборы данных LSP, LSPE и Halpe. \begin{figure}[h]
+\begin{subfigure}[b]{.2\textwidth}
+	\centering
+	\includegraphics[height=\textwidth]{./images/LSP1}
+\end{subfigure}
+\begin{subfigure}[b]{.1\textwidth}
+	\centering
+   \includegraphics[height=2\textwidth]{./images/LSP2}
+\end{subfigure}
+\begin{subfigure}[b]{.2\textwidth}
+	\centering
+   \includegraphics[height=\textwidth]{./images/LSP3}
+\end{subfigure}
+\begin{subfigure}[b]{.15\textwidth}
+	\centering
+   \includegraphics[height=4\textwidth / 3]{./images/LSP4}
+\end{subfigure}
+\begin{subfigure}[b]{.15\textwidth}
+	\centering
+   \includegraphics[height=4\textwidth / 3]{./images/LSP5}
+\end{subfigure}
+\begin{subfigure}[b]{.15\textwidth}
+	\centering
+   \includegraphics[height=4\textwidth / 3]{./images/LSP6}
+\end{subfigure}
+   \caption{Примеры изображений из датасета LSP.}
+   \label{fig:test_photos}
+\end{figure}
 
 \subsection{Результаты эксперимента}
 
@@ -157,20 +189,25 @@
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{|p{3cm}||p{3cm}|p{3cm}|p{3cm}|}
+	\begin{tabular}{|p{1.5cm}||p{2.2cm}|p{2cm}|p{2cm}|p{2.2cm}|p{2cm}|p{2cm}|}
 		\hline
-		Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
+		Metric&PCK@0.05&PCK@0.2&PCK@0.5&PDJ@0.05&PDJ@0.2&PDJ@0.5\\\hline
 		\hline
-		PDJ & 0.042 & 0.359 & 0.815\\
-		PCK & 0.035 & 0.304 & 0.741\\
-		\hline\hline
-		Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
-		AP & 0.012 & 0.004 & 0.006\\
+		LSP & 0.035 & 0.304 & 0.741 & 0.042 & 0.359 & 0.815\\
+		LSPE & 0.005 & 0.059 & 0.277 & 0.009 & 0.108 & 0.457\\
+		\hline
+	\end{tabular}
+	\begin{tabular}{|p{1.5cm}||p{2cm}|p{2cm}|p{2cm}|}
+		\hline
+		Metric&AP@0.5&AP@0.75&AP\\\hline\hline
+		LSP & 0.012 & 0.004 & 0.006\\
+		LSPЕ & 0.03 & 0.001 & 0.001\\
 		\hline
 	\end{tabular}
 	\caption{Результаты вычисления метрик для BlazePose.}
 	\label{tab:MP_table}
 \end{table}
+\hfill \break
 
 \textbf{
 	\begin{large}
@@ -184,15 +221,19 @@
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
+	\begin{tabular}{|p{1.5cm}||p{2.2cm}|p{2cm}|p{2cm}|p{2.2cm}|p{2cm}|p{2cm}|}
 		\hline
-		Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
+		Metric&PCK@0.05&PCK@0.2&PCK@0.5&PDJ@0.05&PDJ@0.2&PDJ@0.5\\\hline
 		\hline
-		PDJ & 0.43 & 0.95 & 0.993\\
-		PCK & 0.356 & 0.928 & 0.983 \\
-		\hline\hline
-		Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
-		AP & 0.168 & 0.064 & 0.08\\
+		LSP & 0.356 & 0.928 & 0.983 & 0.43 & 0.95 & 0.993\\
+		LSPE & 0.144 & 0.539 & 0.745 & 0.227 & 0.635 & 0.806\\
+		\hline
+	\end{tabular}
+	\begin{tabular}{|p{1.5cm}||p{2cm}|p{2cm}|p{2cm}|}
+		\hline
+		Metric&AP@0.5&AP@0.75&AP\\\hline\hline
+		LSP & 0.168 & 0.064 & 0.08\\
+		LSPЕ & 0.312 & 0.059 & 0.111\\
 		\hline
 	\end{tabular}
 	\caption{Результаты вычисления метрик для MoveNet.SinglePose.}
@@ -215,15 +256,19 @@
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
+	\begin{tabular}{|p{1.5cm}||p{2.2cm}|p{2cm}|p{2cm}|p{2.2cm}|p{2cm}|p{2cm}|}
 		\hline
-		Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
+		Metric&PCK@0.05&PCK@0.2&PCK@0.5&PDJ@0.05&PDJ@0.2&PDJ@0.5\\\hline
 		\hline
-		PDJ & 0.746 & 0.845 & 0.899\\
-		PCK & 0.708 & 0.837 & 0.882 \\
-		\hline\hline
-		Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
-		AP & 0.166 & 0.085 & 0.092\\
+		LSP & 0.708 & 0.837 & 0.882 & 0.746 & 0.845 & 0.899\\
+		LSPE & 0.362 & 0.524 & 0.633 & 0.42 & 0.569 & 0.69\\
+		\hline
+	\end{tabular}
+	\begin{tabular}{|p{1.5cm}||p{2cm}|p{2cm}|p{2cm}|}
+		\hline
+		Metric&AP@0.5&AP@0.75&AP\\\hline\hline
+		LSP & 0.166 & 0.085 & 0.092\\
+		LSPЕ & 0.538 & 0.362 & 0.362\\
 		\hline
 	\end{tabular}
 	\caption{Результаты вычисления метрик для OpenPose.}
@@ -236,27 +281,33 @@
 	\end{large}
 }
 
-Результаты работы модели можно посмотреть на \autoref{fig:MMP_result}.\\
-Значения метрик см. в \autoref{tab:MMP_table}.\\
+Результаты работы модели можно посмотреть на \autoref{fig:MMP_result}.
+
+Значения метрик см. в \autoref{tab:MMP_table}.
+
 Среднее время обработки одной фотографии составило 0.409 секунды.
 
 Для своей работы требует детекции человека, из-за чего показывает лучший результат в точности, но худший результат по времени обработки одного изображения.
 
 \begin{table}[h]
-\centering
-\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
-\hline
-Threshold&\makebox[3cm]{0.05}&\makebox[3cm]{0.2}&\makebox[3cm]{0.5}\\\hline
-\hline
-PDJ & 0.76 & 0.858 & 0.933\\
-PCK & 0.728 & 0.85 & 0.914 \\
-\hline\hline
-Threshold&\makebox[3cm]{0.5}&\makebox[3cm]{0.75}&\makebox[3cm]{0.5:0.95:0.05}\\\hline\hline
-AP & 0.225 & 0.223 & 0.123\\
-\hline
-\end{tabular}
-\caption{Результаты вычисления метрик для MMPose.}
-\label{tab:MMP_table}
+	\centering
+	\begin{tabular}{|p{1.5cm}||p{2.2cm}|p{2cm}|p{2cm}|p{2.2cm}|p{2cm}|p{2cm}|}
+		\hline
+		Metric&PCK@0.05&PCK@0.2&PCK@0.5&PDJ@0.05&PDJ@0.2&PDJ@0.5\\\hline
+		\hline
+		LSP & 0.728 & 0.85 & 0.914 & 0.76 & 0.858 & 0.933\\
+		LSPE & 0.403 & 0.56 & 0.651 & 0.463 & 0.587 & 0.72\\
+		\hline
+	\end{tabular}
+	\begin{tabular}{|p{1.5cm}||p{2cm}|p{2cm}|p{2cm}|}
+		\hline
+		Metric&AP@0.5&AP@0.75&AP\\\hline\hline
+		LSP & 0.225 & 0.223 & 0.123\\
+		LSPЕ & 0.598 & 0.462 & 0.443\\
+		\hline
+	\end{tabular}
+	\caption{Результаты вычисления метрик для MMPose.}
+	\label{tab:MMP_table}
 \end{table}
 
 \newpage
