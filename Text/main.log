@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.2)  16 JUN 2022 01:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.2)  17 JUN 2022 02:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1541,7 +1541,7 @@ Overfull \hbox (1.165pt too wide) in paragraph at lines 194--194
  []
 
 
-Overfull \hbox (29.84889pt too wide) in paragraph at lines 192--207
+Overfull \hbox (29.84889pt too wide) in paragraph at lines 192--209
  [][] 
  []
 
@@ -1549,7 +1549,7 @@ Overfull \hbox (29.84889pt too wide) in paragraph at lines 192--207
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
@@ -1570,54 +1570,86 @@ Overfull \hbox (1.165pt too wide) in paragraph at lines 226--226
  []
 
 
-Overfull \hbox (29.84889pt too wide) in paragraph at lines 224--239
+Overfull \hbox (29.84889pt too wide) in paragraph at lines 224--241
  [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
+
  []
 
 [31]
-Overfull \hbox (2.32805pt too wide) in paragraph at lines 261--261
+Overfull \hbox (2.32805pt too wide) in paragraph at lines 267--267
 []|\T2A/cmr/m/n/14.4 PCK@0.05| 
  []
 
 
-Overfull \hbox (1.165pt too wide) in paragraph at lines 261--261
+Overfull \hbox (1.165pt too wide) in paragraph at lines 267--267
 []|\T2A/cmr/m/n/14.4 PCK@0.2| 
  []
 
 
-Overfull \hbox (1.165pt too wide) in paragraph at lines 261--261
+Overfull \hbox (1.165pt too wide) in paragraph at lines 267--267
 []|\T2A/cmr/m/n/14.4 PCK@0.5| 
  []
 
 
-Overfull \hbox (29.84889pt too wide) in paragraph at lines 259--274
+Overfull \hbox (29.84889pt too wide) in paragraph at lines 265--282
  [][] 
  []
 
 
-Overfull \hbox (2.32805pt too wide) in paragraph at lines 296--296
+Overfull \hbox (2.32805pt too wide) in paragraph at lines 304--304
 []|\T2A/cmr/m/n/14.4 PCK@0.05| 
  []
 
 
-Overfull \hbox (1.165pt too wide) in paragraph at lines 296--296
+Overfull \hbox (1.165pt too wide) in paragraph at lines 304--304
 []|\T2A/cmr/m/n/14.4 PCK@0.2| 
  []
 
 
-Overfull \hbox (1.165pt too wide) in paragraph at lines 296--296
+Overfull \hbox (1.165pt too wide) in paragraph at lines 304--304
 []|\T2A/cmr/m/n/14.4 PCK@0.5| 
  []
 
 
-Overfull \hbox (29.84889pt too wide) in paragraph at lines 294--309
+Overfull \hbox (29.84889pt too wide) in paragraph at lines 302--319
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32] [33]) (./parts/Chapter5.tex [34]) (./main.bbl
+[32]
+<./images/results/PCK.png, id=471, 596.9502pt x 253.6677pt>
+File: ./images/results/PCK.png Graphic file (type png)
+<use ./images/results/PCK.png>
+Package pdftex.def Info: ./images/results/PCK.png  used on input line 328.
+(pdftex.def)             Requested size: 364.19667pt x 154.76416pt.
+<./images/results/PDJ.png, id=472, 596.9502pt x 253.6677pt>
+File: ./images/results/PDJ.png Graphic file (type png)
+<use ./images/results/PDJ.png>
+Package pdftex.def Info: ./images/results/PDJ.png  used on input line 333.
+(pdftex.def)             Requested size: 364.19667pt x 154.76416pt.
+<./images/results/AP.png, id=473, 624.4128pt x 253.6677pt>
+File: ./images/results/AP.png Graphic file (type png)
+<use ./images/results/AP.png>
+Package pdftex.def Info: ./images/results/AP.png  used on input line 338.
+(pdftex.def)             Requested size: 364.19667pt x 147.95567pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--341
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--341
+[]
+ []
+
+[33] [34 <./images/results/PCK.png> <./images/results/PDJ.png> <./images/result
+s/AP.png>] [35]) (./parts/Chapter5.tex [36]) (./main.bbl
 Underfull \hbox (badness 3396) in paragraph at lines 12--19
 []\T2A/cmr/m/n/14.4 Human3.6M: Large Scale Datasets and Predictive Methods for
  []
@@ -1655,7 +1687,7 @@ Underfull \hbox (badness 1005) in paragraph at lines 53--59
 ce\T2A/cmr/m/n/14.4 . ---  1996. ---
  []
 
-[35]
+[37]
 Underfull \hbox (badness 1348) in paragraph at lines 81--84
 []\T2A/cmr/m/n/14.4 RMPE: Regional Multi-person Pose Estimation / Hao-Shu Fang,
 
@@ -1700,7 +1732,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--127
 g . com / 2020 / 12 /
  []
 
-[36]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 136--139
 []\T2A/cmr/m/it/14.4 Osokin, Daniil\T2A/cmr/m/n/14.4 . Real-time 3D Multi-perso
 n Pose Estimation
@@ -1729,7 +1761,7 @@ Underfull \hbox (badness 1484) in paragraph at lines 187--192
 \T2A/cmr/m/n/14.4 Networks / Alexander Toshev, Christian Szegedy // 2014 IEEE
  []
 
-[37]
+[39]
 Underfull \hbox (badness 1043) in paragraph at lines 195--199
 \T2A/cmr/m/n/14.4 Analysis / Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehle
 r,
@@ -1756,23 +1788,23 @@ Underfull \hbox (badness 1122) in paragraph at lines 230--236
 \T2A/cmr/m/n/14.4 Shanmuganathan Raman // IEEE/CVF Conference on Computer
  []
 
-) [38] (./parts/Appendix.tex
-<./images/MPPose/19.jpeg, id=529, 915.42pt x 600.2425pt>
+) [40] (./parts/Appendix.tex
+<./images/MPPose/19.jpeg, id=545, 915.42pt x 600.2425pt>
 File: ./images/MPPose/19.jpeg Graphic file (type jpg)
 <use ./images/MPPose/19.jpeg>
 Package pdftex.def Info: ./images/MPPose/19.jpeg  used on input line 9.
 (pdftex.def)             Requested size: 227.62206pt x 149.2451pt.
-<./images/MPPose/23.jpeg, id=530, 1505.625pt x 1004.75375pt>
+<./images/MPPose/23.jpeg, id=546, 1505.625pt x 1004.75375pt>
 File: ./images/MPPose/23.jpeg Graphic file (type jpg)
 <use ./images/MPPose/23.jpeg>
 Package pdftex.def Info: ./images/MPPose/23.jpeg  used on input line 14.
 (pdftex.def)             Requested size: 227.62206pt x 151.88707pt.
-<./images/MPPose/36.jpeg, id=531, 963.6pt x 1284.8pt>
+<./images/MPPose/36.jpeg, id=547, 963.6pt x 1284.8pt>
 File: ./images/MPPose/36.jpeg Graphic file (type jpg)
 <use ./images/MPPose/36.jpeg>
 Package pdftex.def Info: ./images/MPPose/36.jpeg  used on input line 19.
 (pdftex.def)             Requested size: 170.70569pt x 227.62206pt.
-<./images/MPPose/33.jpeg, id=532, 963.6pt x 1284.8pt>
+<./images/MPPose/33.jpeg, id=548, 963.6pt x 1284.8pt>
 File: ./images/MPPose/33.jpeg Graphic file (type jpg)
 <use ./images/MPPose/33.jpeg>
 Package pdftex.def Info: ./images/MPPose/33.jpeg  used on input line 24.
@@ -1787,22 +1819,22 @@ Overfull \hbox (3.04219pt too wide) in paragraph at lines 7--27
 [] [] 
  []
 
-<./images/MoveNet/19.jpeg, id=533, 834.11626pt x 545.03625pt>
+<./images/MoveNet/19.jpeg, id=549, 834.11626pt x 545.03625pt>
 File: ./images/MoveNet/19.jpeg Graphic file (type jpg)
 <use ./images/MoveNet/19.jpeg>
 Package pdftex.def Info: ./images/MoveNet/19.jpeg  used on input line 34.
 (pdftex.def)             Requested size: 227.62206pt x 148.73358pt.
-<./images/MoveNet/23.jpeg, id=534, 833.1125pt x 557.08125pt>
+<./images/MoveNet/23.jpeg, id=550, 833.1125pt x 557.08125pt>
 File: ./images/MoveNet/23.jpeg Graphic file (type jpg)
 <use ./images/MoveNet/23.jpeg>
 Package pdftex.def Info: ./images/MoveNet/23.jpeg  used on input line 39.
 (pdftex.def)             Requested size: 227.62206pt x 152.19902pt.
-<./images/MoveNet/36.jpeg, id=535, 625.33624pt x 833.1125pt>
+<./images/MoveNet/36.jpeg, id=551, 625.33624pt x 833.1125pt>
 File: ./images/MoveNet/36.jpeg Graphic file (type jpg)
 <use ./images/MoveNet/36.jpeg>
 Package pdftex.def Info: ./images/MoveNet/36.jpeg  used on input line 44.
 (pdftex.def)             Requested size: 170.84683pt x 227.62206pt.
-<./images/MoveNet/33.jpeg, id=536, 625.33624pt x 834.11626pt>
+<./images/MoveNet/33.jpeg, id=552, 625.33624pt x 834.11626pt>
 File: ./images/MoveNet/33.jpeg Graphic file (type jpg)
 <use ./images/MoveNet/33.jpeg>
 Package pdftex.def Info: ./images/MoveNet/33.jpeg  used on input line 49.
@@ -1820,22 +1852,22 @@ Overfull \hbox (3.04219pt too wide) in paragraph at lines 32--52
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/OpenPose/19.jpeg, id=537, 915.42pt x 600.2425pt>
+<./images/OpenPose/19.jpeg, id=553, 915.42pt x 600.2425pt>
 File: ./images/OpenPose/19.jpeg Graphic file (type jpg)
 <use ./images/OpenPose/19.jpeg>
 Package pdftex.def Info: ./images/OpenPose/19.jpeg  used on input line 59.
 (pdftex.def)             Requested size: 227.62206pt x 149.2451pt.
-<./images/OpenPose/23.jpeg, id=538, 1505.625pt x 1004.75375pt>
+<./images/OpenPose/23.jpeg, id=554, 1505.625pt x 1004.75375pt>
 File: ./images/OpenPose/23.jpeg Graphic file (type jpg)
 <use ./images/OpenPose/23.jpeg>
 Package pdftex.def Info: ./images/OpenPose/23.jpeg  used on input line 64.
 (pdftex.def)             Requested size: 227.62206pt x 151.88707pt.
-<./images/OpenPose/36.jpeg, id=539, 963.6pt x 1284.8pt>
+<./images/OpenPose/36.jpeg, id=555, 963.6pt x 1284.8pt>
 File: ./images/OpenPose/36.jpeg Graphic file (type jpg)
 <use ./images/OpenPose/36.jpeg>
 Package pdftex.def Info: ./images/OpenPose/36.jpeg  used on input line 69.
 (pdftex.def)             Requested size: 170.70569pt x 227.62206pt.
-<./images/OpenPose/33.jpeg, id=540, 963.6pt x 1284.8pt>
+<./images/OpenPose/33.jpeg, id=556, 963.6pt x 1284.8pt>
 File: ./images/OpenPose/33.jpeg Graphic file (type jpg)
 <use ./images/OpenPose/33.jpeg>
 Package pdftex.def Info: ./images/OpenPose/33.jpeg  used on input line 74.
@@ -1853,22 +1885,22 @@ Overfull \hbox (3.04219pt too wide) in paragraph at lines 57--77
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/MMPose/19.jpeg, id=541, 457.71pt x 300.12125pt>
+<./images/MMPose/19.jpeg, id=557, 457.71pt x 300.12125pt>
 File: ./images/MMPose/19.jpeg Graphic file (type jpg)
 <use ./images/MMPose/19.jpeg>
 Package pdftex.def Info: ./images/MMPose/19.jpeg  used on input line 84.
 (pdftex.def)             Requested size: 227.62206pt x 149.24968pt.
-<./images/MMPose/23.jpeg, id=542, 752.8125pt x 501.875pt>
+<./images/MMPose/23.jpeg, id=558, 752.8125pt x 501.875pt>
 File: ./images/MMPose/23.jpeg Graphic file (type jpg)
 <use ./images/MMPose/23.jpeg>
 Package pdftex.def Info: ./images/MMPose/23.jpeg  used on input line 89.
 (pdftex.def)             Requested size: 227.62206pt x 151.75064pt.
-<./images/MMPose/36.jpeg, id=543, 481.8pt x 642.4pt>
+<./images/MMPose/36.jpeg, id=559, 481.8pt x 642.4pt>
 File: ./images/MMPose/36.jpeg Graphic file (type jpg)
 <use ./images/MMPose/36.jpeg>
 Package pdftex.def Info: ./images/MMPose/36.jpeg  used on input line 94.
 (pdftex.def)             Requested size: 170.71304pt x 227.62206pt.
-<./images/MMPose/33.jpeg, id=544, 481.8pt x 642.4pt>
+<./images/MMPose/33.jpeg, id=560, 481.8pt x 642.4pt>
 File: ./images/MMPose/33.jpeg Graphic file (type jpg)
 <use ./images/MMPose/33.jpeg>
 Package pdftex.def Info: ./images/MMPose/33.jpeg  used on input line 99.
@@ -1886,11 +1918,11 @@ Overfull \hbox (3.04219pt too wide) in paragraph at lines 82--102
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [39 <./images/MPPose/19.jpeg> <./images/MPPose/23.jpeg> <./images/MPPose/36.j
-peg> <./images/MPPose/33.jpeg>] [40 <./images/MoveNet/19.jpeg> <./images/MoveNe
-t/23.jpeg> <./images/MoveNet/36.jpeg> <./images/MoveNet/33.jpeg>] [41 <./images
+) [41 <./images/MPPose/19.jpeg> <./images/MPPose/23.jpeg> <./images/MPPose/36.j
+peg> <./images/MPPose/33.jpeg>] [42 <./images/MoveNet/19.jpeg> <./images/MoveNe
+t/23.jpeg> <./images/MoveNet/36.jpeg> <./images/MoveNet/33.jpeg>] [43 <./images
 /OpenPose/19.jpeg> <./images/OpenPose/23.jpeg> <./images/OpenPose/36.jpeg> <./i
-mages/OpenPose/33.jpeg>] [42 <./images/MMPose/19.jpeg> <./images/MMPose/23.jpeg
+mages/OpenPose/33.jpeg>] [44 <./images/MMPose/19.jpeg> <./images/MMPose/23.jpeg
 > <./images/MMPose/36.jpeg> <./images/MMPose/33.jpeg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
@@ -1908,10 +1940,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27484 strings out of 481239
- 483490 string characters out of 5920378
- 737228 words of memory out of 5000000
- 41948 multiletter control sequences out of 15000+600000
+ 27514 strings out of 481239
+ 484159 string characters out of 5920378
+ 740337 words of memory out of 5000000
+ 41970 multiletter control sequences out of 15000+600000
  547987 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,12n,62p,2112b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1932,10 +1964,10 @@ per/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1728.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sftt1440.pfb>
-Output written on main.pdf (42 pages, 7755219 bytes).
+Output written on main.pdf (44 pages, 7847384 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 530 compressed objects within 6 object streams
- 134 named destinations out of 1000 (max. 500000)
- 417 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 672 PDF objects out of 1000 (max. 8388607)
+ 539 compressed objects within 6 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 432 words of extra memory for PDF output out of 10000 (max. 10000000)
 
