@@ -8,17 +8,17 @@
 \contentsline {subsubsection}{\numberline {3.1.1}BlazePose}{13}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}MoveNet.SinglePose}{15}{subsubsection.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.3}OpenPose}{17}{subsubsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.4}MMPose}{19}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.4}MMPose}{18}{subsubsection.3.1.4}%
 \contentsline {subsubsection}{\numberline {3.1.5}AlphaPose}{19}{subsubsection.3.1.5}%
-\contentsline {subsubsection}{\numberline {3.1.6}DeepPose}{21}{subsubsection.3.1.6}%
-\contentsline {subsection}{\numberline {3.2}Модели для классификации позы человека}{21}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}BlazePose by MediaPipe}{22}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}mmakos}{22}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}MMaction2 by OpenMMlab}{22}{subsubsection.3.2.3}%
-\contentsline {section}{\numberline {4}Исследование моделей}{23}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Описание эксперимента}{23}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Поиск данных}{27}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Результаты эксперимента}{30}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Заключение}{36}{section.5}%
-\contentsline {section}{\numberline {6}Приложение}{41}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Визуальные результаты работы моделей}{41}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {3.1.6}DeepPose}{20}{subsubsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.2}Модели для классификации позы человека}{22}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Классификатор от MediaPipe}{22}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}mmakos}{23}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}MMaction2 by OpenMMlab}{24}{subsubsection.3.2.3}%
+\contentsline {section}{\numberline {4}Исследование моделей}{25}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Описание эксперимента}{25}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Поиск данных}{29}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Результаты эксперимента}{32}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Заключение}{37}{section.5}%
+\contentsline {section}{Список литературы}{38}{section*.24}%
+\contentsline {section}{\numberline {A}Приложение}{43}{appendix.A}%

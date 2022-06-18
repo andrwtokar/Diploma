@@ -26,11 +26,15 @@
     \input{parts/Chapter5.tex} %% Заключение
     
     
-    %% Don't change the following lines
+    %% Don't change the following lines   
     \nocite{*}
+    \phantomsection
+   	\addcontentsline{toc}{section}{Список литературы}
     \bibliography{references}
+    
 
     %% в зависимости от надобности подключаем раздел "Приложениие"
     \newpage
+   	\appendix
     \input{parts/Appendix.tex}
 \end{document}

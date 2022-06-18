@@ -139,13 +139,20 @@ PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
 
 \bibitem{pet_classification}
 \selectlanguageifdefined{english}
-\BibEmph{MAKOŚ,~MICHAŁ}. Human Pose Classification - BEng Thesis. ---
-\newblock \url{https://github.com/mmakos/HPC}.
+\BibEmph{Saksena,~Saumya~Kumaar}. Human Action Classification. ---
+\newblock \url{https://github.com/dronefreak/human-action-classification}.
 
 \bibitem{mediapipe}
 \selectlanguageifdefined{english}
 \BibEmph{google.github.io}. MediaPipe.Home. ---
 \newblock \url{https://google.github.io/mediapipe/}.
+
+\bibitem{MoveNet}
+\selectlanguageifdefined{english}
+\BibEmph{Votel,~Ronny}. Next-Generation Pose Detection with MoveNet and
+  TensorFlow.js. ---
+\newblock
+  \url{https://blog.tensorflow.org/2021/05/next-generation-pose-detection-with-movenet-and-tensorflowjs.html}.
 
 \bibitem{mobilenetv2}
 \selectlanguageifdefined{english}
@@ -189,6 +196,17 @@ PaStaNet: Toward Human Activity Knowledge Engine~/ Yong-Lu~Li, Liang~Xu,
   Computer Vision and Pattern Recognition. ---
 \newblock 2014. ---
 \newblock Pp.~1653--1660.
+
+\bibitem{mediapipe_cls}
+\selectlanguageifdefined{english}
+\BibEmph{google.github.io}. Pose Classification. ---
+\newblock
+  \url{https://google.github.io/mediapipe/solutions/pose_classification.html}.
+
+\bibitem{mmakos}
+\selectlanguageifdefined{english}
+\BibEmph{MAKOŚ,~MICHAŁ}. Human Pose Classification - BEng Thesis. ---
+\newblock \url{https://github.com/mmakos/HPC}.
 
 \bibitem{MPII_dataset}
 \selectlanguageifdefined{english}
