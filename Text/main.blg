@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: gost71u.bst
 Database file #1: references.bib
 Warning--empty booktitle in stanford40
-You've used 37 entries,
+You've used 40 entries,
             2674 wiz_defined-function locations,
-            827 strings with 11825 characters,
-and the built_in function-call counts, 8824 in all, are:
-= -- 1159
-> -- 237
-< -- 23
-+ -- 91
-- -- 54
-* -- 411
-:= -- 926
-add.period$ -- 125
-call.type$ -- 37
+            819 strings with 11817 characters,
+and the built_in function-call counts, 9014 in all, are:
+= -- 1132
+> -- 251
+< -- 18
++ -- 97
+- -- 57
+* -- 368
+:= -- 954
+add.period$ -- 119
+call.type$ -- 40
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 442
-empty$ -- 933
-format.name$ -- 80
-if$ -- 2379
+cite$ -- 41
+duplicate$ -- 466
+empty$ -- 1001
+format.name$ -- 86
+if$ -- 2425
 int.to.chr$ -- 0
-int.to.str$ -- 37
+int.to.str$ -- 40
 missing$ -- 0
-newline$ -- 208
-num.names$ -- 32
-pop$ -- 217
+newline$ -- 220
+num.names$ -- 34
+pop$ -- 255
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 276
+skip$ -- 287
 stack$ -- 0
 substring$ -- 220
-swap$ -- 295
-text.length$ -- 7
+swap$ -- 287
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 29
-width$ -- 39
-write$ -- 527
+while$ -- 30
+width$ -- 42
+write$ -- 541
 (There was 1 warning)
