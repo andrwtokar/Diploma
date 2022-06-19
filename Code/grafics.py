@@ -22,9 +22,9 @@ PCK = {
     },
 
     "Halpe": {
-        "BlasePose": [0, 0, 0],
-        "MoveNet": [0, 0, 0],
-        "OpenPose": [0, 0, 0],
+        "BlasePose": [0.004, 0.051, 0.222],
+        "MoveNet": [0.04, 0.052, 0.223],
+        "OpenPose": [0.575, 0.638, 0.686],
         "MMPose": [0, 0, 0],
     },
 }
@@ -49,9 +49,9 @@ PDJ = {
     },
 
     "Halpe": {
-        "BlasePose": [0, 0, 0],
-        "MoveNet": [0, 0, 0],
-        "OpenPose": [0, 0, 0],
+        "BlasePose": [0.005, 0.077, 0.313],
+        "MoveNet": [0.006, 0.078, 0.32],
+        "OpenPose": [0.613, 0.658, 0.72],
         "MMPose": [0, 0, 0],
     },
 }
@@ -78,7 +78,7 @@ AP = {
     "Halpe": {
         "BlasePose": [0, 0, 0],
         "MoveNet": [0, 0, 0],
-        "OpenPose": [0, 0, 0],
+        "OpenPose": [0.562, 0.398, 0.384],
         "MMPose": [0, 0, 0],
     },
 }
@@ -111,6 +111,9 @@ for metric in [PCK, PDJ, AP]:
         fig.set_figheight(4)
         fig.set_figwidth(10)
 
+        ax.set_xlabel("Значение порога для метрики")
+        ax.set_ylabel("Значение метрики")
+
         plt.savefig(PATH + f"{metric['name']}_{dataset}.png", bbox_inches='tight')
 
 
@@ -131,6 +134,9 @@ for metric in [PCK, PDJ, AP]:
         )
     fig.set_figheight(4)
     fig.set_figwidth(10)
+
+    ax.set_xlabel("Значение порога для метрики")
+    ax.set_ylabel("Значение метрики")
 
     plt.savefig(PATH + f"{metric['name']}.png", bbox_inches='tight')
 
