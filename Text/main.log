@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.2)  19 JUN 2022 02:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.4.2)  20 JUN 2022 01:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,11 +1106,7 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count328
 \l__pdf_internal_box=\box71
 )
-(./main.aux
-
-LaTeX Warning: Label `fig:test_photos' multiply defined.
-
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -1355,152 +1351,152 @@ Overfull \hbox (1.13506pt too wide) in paragraph at lines 46--48
  []
 
 [10 <./images/COCO_topology.jpg> <./images/BlazePose_topology.jpg> <./images/Ha
-lpe_topology.jpg>]
-Overfull \hbox (3.7975pt too wide) in paragraph at lines 49--50
-[]\T2A/cmr/m/n/14.4 Bottom-up удоб-но ис-поль-зо-вать при по-кад-ро-вой об-ра-о
-т-ке ви-део-фраг-
+lpe_topology.jpg>] [11]
+Overfull \hbox (2.21945pt too wide) in paragraph at lines 76--77
+[]\T2A/cmr/m/n/14.4 Если сум-ми-ро-вать все вы-ше-ска-зан-ное, то за-да-ча клас
+-си-фи-ка-ции дви-
  []
 
-[11]) (./parts/Chapter2.tex [12]
-<./images/MPPose/Model_structure.jpg, id=247, 412.54124pt x 169.63374pt>
+[12]) (./parts/Chapter2.tex [13]
+<./images/MPPose/Model_structure.jpg, id=262, 412.54124pt x 169.63374pt>
 File: ./images/MPPose/Model_structure.jpg Graphic file (type jpg)
 <use ./images/MPPose/Model_structure.jpg>
 Package pdftex.def Info: ./images/MPPose/Model_structure.jpg  used on input lin
-e 25.
+e 24.
 (pdftex.def)             Requested size: 364.19528pt x 149.75699pt.
-<./images/MPPose/architecture.jpg, id=251, 552.0625pt x 338.26375pt>
+<./images/MPPose/architecture.jpg, id=266, 552.0625pt x 338.26375pt>
 File: ./images/MPPose/architecture.jpg Graphic file (type jpg)
 <use ./images/MPPose/architecture.jpg>
 Package pdftex.def Info: ./images/MPPose/architecture.jpg  used on input line 3
-4.
+3.
 (pdftex.def)             Requested size: 364.19528pt x 223.16185pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./images/MPPose/Model_structure.jpg>]
-<./images/MoveNet/architecture.png, id=268, 1951.29pt x 1228.59pt>
+[14 <./images/MPPose/Model_structure.jpg>]
+<./images/MoveNet/architecture.png, id=281, 1951.29pt x 1228.59pt>
 File: ./images/MoveNet/architecture.png Graphic file (type png)
 <use ./images/MoveNet/architecture.png>
 Package pdftex.def Info: ./images/MoveNet/architecture.png  used on input line 
-56.
+55.
 (pdftex.def)             Requested size: 364.19528pt x 229.29149pt.
- [14 <./images/MPPose/architecture.jpg>]
-<./images/MoveNet/structure.png, id=283, 1606.0pt x 601.24625pt>
+ [15 <./images/MPPose/architecture.jpg>]
+<./images/MoveNet/structure.png, id=296, 1606.0pt x 601.24625pt>
 File: ./images/MoveNet/structure.png Graphic file (type png)
 <use ./images/MoveNet/structure.png>
-Package pdftex.def Info: ./images/MoveNet/structure.png  used on input line 65.
+Package pdftex.def Info: ./images/MoveNet/structure.png  used on input line 64.
 
 (pdftex.def)             Requested size: 364.19528pt x 136.33878pt.
 
-Overfull \hbox (11.6236pt too wide) in paragraph at lines 72--73
+Overfull \hbox (11.6236pt too wide) in paragraph at lines 71--72
 []\T2A/cmr/m/n/14.4 Следующим эта-пом раз-ви-тия про-ек-та ста-ла мо-дель MoveN
 et.MultiPose
  []
 
-[15 <./images/MoveNet/architecture.png> <./images/MoveNet/structure.png>]
-Overfull \hbox (4.51028pt too wide) in paragraph at lines 85--86
+[16 <./images/MoveNet/architecture.png> <./images/MoveNet/structure.png>]
+Overfull \hbox (4.51028pt too wide) in paragraph at lines 84--85
 []\T2A/cmr/m/n/14.4 Первым ша-гом про-ис-хо-дит об-ра-бот-ка изоб-ра-же-ния и п
 о-стро-е-ние карт
  []
 
-<./images/OpenPose/structure.png, id=295, 1286.8075pt x 286.06876pt>
+<./images/OpenPose/structure.png, id=308, 1286.8075pt x 286.06876pt>
 File: ./images/OpenPose/structure.png Graphic file (type png)
 <use ./images/OpenPose/structure.png>
-Package pdftex.def Info: ./images/OpenPose/structure.png  used on input line 89
+Package pdftex.def Info: ./images/OpenPose/structure.png  used on input line 88
 .
 (pdftex.def)             Requested size: 455.24411pt x 101.20372pt.
-[16]
-<./images/OpenPose/architecture.jpg, id=306, 823.075pt x 301.125pt>
+[17]
+<./images/OpenPose/architecture.jpg, id=319, 823.075pt x 301.125pt>
 File: ./images/OpenPose/architecture.jpg Graphic file (type jpg)
 <use ./images/OpenPose/architecture.jpg>
 Package pdftex.def Info: ./images/OpenPose/architecture.jpg  used on input line
- 98.
+ 97.
 (pdftex.def)             Requested size: 364.19528pt x 133.23976pt.
- [17 <./images/OpenPose/structure.png (PNG copy)> <./images/OpenPose/architectu
-re.jpg>] [18]
-<./images/AlphaPose_structure.jpg, id=329, 823.075pt x 217.81375pt>
+ [18 <./images/OpenPose/structure.png (PNG copy)> <./images/OpenPose/architectu
+re.jpg>] [19]
+<./images/AlphaPose_structure.jpg, id=343, 823.075pt x 217.81375pt>
 File: ./images/AlphaPose_structure.jpg Graphic file (type jpg)
 <use ./images/AlphaPose_structure.jpg>
 Package pdftex.def Info: ./images/AlphaPose_structure.jpg  used on input line 1
-27.
+26.
 (pdftex.def)             Requested size: 455.24411pt x 120.4726pt.
-<./images/AlphaPose_architecture.jpg, id=334, 552.0625pt x 191.71625pt>
+<./images/AlphaPose_architecture.jpg, id=348, 552.0625pt x 191.71625pt>
 File: ./images/AlphaPose_architecture.jpg Graphic file (type jpg)
 <use ./images/AlphaPose_architecture.jpg>
 Package pdftex.def Info: ./images/AlphaPose_architecture.jpg  used on input lin
-e 136.
+e 135.
 (pdftex.def)             Requested size: 455.24411pt x 158.10057pt.
- [19 <./images/AlphaPose_structure.jpg>]
-<./images/DeepPose.jpg, id=347, 552.0625pt x 123.46124pt>
+ [20 <./images/AlphaPose_structure.jpg>]
+<./images/DeepPose.jpg, id=360, 552.0625pt x 123.46124pt>
 File: ./images/DeepPose.jpg Graphic file (type jpg)
 <use ./images/DeepPose.jpg>
-Package pdftex.def Info: ./images/DeepPose.jpg  used on input line 153.
+Package pdftex.def Info: ./images/DeepPose.jpg  used on input line 152.
 (pdftex.def)             Requested size: 455.24411pt x 101.81343pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[20 <./images/AlphaPose_architecture.jpg> <./images/DeepPose.jpg>]
-<./images/Classificators/BlazePose.png, id=358, 545.03625pt x 545.03625pt>
+[21 <./images/AlphaPose_architecture.jpg> <./images/DeepPose.jpg>]
+<./images/Classificators/BlazePose.png, id=371, 545.03625pt x 545.03625pt>
 File: ./images/Classificators/BlazePose.png Graphic file (type png)
 <use ./images/Classificators/BlazePose.png>
 Package pdftex.def Info: ./images/Classificators/BlazePose.png  used on input l
-ine 180.
+ine 179.
 (pdftex.def)             Requested size: 273.14923pt x 273.14952pt.
- [21 <./images/Classificators/BlazePose.png>]
-<./images/Classificators/MMakos_image_prep.png, id=371, 929.4725pt x 674.52pt>
+ [22 <./images/Classificators/BlazePose.png>]
+<./images/Classificators/MMakos_image_prep.png, id=384, 929.4725pt x 674.52pt>
 File: ./images/Classificators/MMakos_image_prep.png Graphic file (type png)
 <use ./images/Classificators/MMakos_image_prep.png>
 Package pdftex.def Info: ./images/Classificators/MMakos_image_prep.png  used on
- input line 198.
+ input line 197.
 (pdftex.def)             Requested size: 273.14923pt x 198.22005pt.
- [22 <./images/Classificators/MMakos_image_prep.png>]
-<./images/Classificators/TimeSformer.png, id=385, 738.76pt x 356.33125pt>
+ [23 <./images/Classificators/MMakos_image_prep.png>]
+<./images/Classificators/TimeSformer.png, id=398, 738.76pt x 356.33125pt>
 File: ./images/Classificators/TimeSformer.png Graphic file (type png)
 <use ./images/Classificators/TimeSformer.png>
 Package pdftex.def Info: ./images/Classificators/TimeSformer.png  used on input
- line 219.
+ line 218.
 (pdftex.def)             Requested size: 409.71692pt x 197.61937pt.
- [23 <./images/Classificators/TimeSformer.png>]
-<./images/Classificators/PoseC3D.png, id=397, 999.735pt x 383.4325pt>
+ [24 <./images/Classificators/TimeSformer.png>]
+<./images/Classificators/PoseC3D.png, id=410, 999.735pt x 383.4325pt>
 File: ./images/Classificators/PoseC3D.png Graphic file (type png)
 <use ./images/Classificators/PoseC3D.png>
 Package pdftex.def Info: ./images/Classificators/PoseC3D.png  used on input lin
-e 228.
+e 227.
 (pdftex.def)             Requested size: 455.24411pt x 174.60248pt.
- [24 <./images/Classificators/PoseC3D.png>]) (./parts/Chapter4.tex
+ [25 <./images/Classificators/PoseC3D.png>]) (./parts/Chapter4.tex
 Overfull \hbox (4.13182pt too wide) in paragraph at lines 9--10
 \T2A/cmr/m/n/14.4 Эксперимент вклю-ча-ет рас-смот-ре-ние толь-ко мо-де-лей рас-
 по-зна-ва-ния клю-
  []
 
-[25] [26]
-<./images/PDJ.jpeg, id=431, 1405.25pt x 934.49126pt>
+[26] [27]
+<./images/PDJ.jpeg, id=438, 1405.25pt x 934.49126pt>
 File: ./images/PDJ.jpeg Graphic file (type jpg)
 <use ./images/PDJ.jpeg>
 Package pdftex.def Info: ./images/PDJ.jpeg  used on input line 51.
 (pdftex.def)             Requested size: 364.19528pt x 242.192pt.
- [27 <./images/PDJ.jpeg (PNG copy)>] [28]
-<./images/Test/СЂРѕР»РёРєРё2.jpg, id=444, 686.565pt x 450.18187pt>
+ [28 <./images/PDJ.jpeg (PNG copy)>] [29]
+<./images/Test/СЂРѕР»РёРєРё2.jpg, id=451, 686.565pt x 450.18187pt>
 File: ./images/Test/СЂРѕР»РёРєРё2.jpg Graphic file (type jpg)
 <use ./images/Test/СЂРѕР»РёРєРё2.jpg>
 Package pdftex.def Info: ./images/Test/СЂРѕР»РёРєРё2.jpg  used on input line 92
 .
 (pdftex.def)             Requested size: 227.62206pt x 149.24739pt.
-<./images/Test/СЃРєР°РјРµРєР°3.jpg, id=445, 451.6875pt x 301.42613pt>
+<./images/Test/СЃРєР°РјРµРєР°3.jpg, id=452, 451.6875pt x 301.42613pt>
 File: ./images/Test/СЃРєР°РјРµРєР°3.jpg Graphic file (type jpg)
 <use ./images/Test/СЃРєР°РјРµРєР°3.jpg>
 Package pdftex.def Info: ./images/Test/СЃРєР°РјРµРєР°3.jpg  used on input line 
 97.
 (pdftex.def)             Requested size: 227.62206pt x 151.90393pt.
-<./images/Test/dress.jpg, id=446, 963.6pt x 1284.8pt>
+<./images/Test/dress.jpg, id=453, 963.6pt x 1284.8pt>
 File: ./images/Test/dress.jpg Graphic file (type jpg)
 <use ./images/Test/dress.jpg>
 Package pdftex.def Info: ./images/Test/dress.jpg  used on input line 102.
 (pdftex.def)             Requested size: 170.70569pt x 227.62206pt.
-<./images/Test/static.jpg, id=447, 963.6pt x 1284.8pt>
+<./images/Test/static.jpg, id=454, 963.6pt x 1284.8pt>
 File: ./images/Test/static.jpg Graphic file (type jpg)
 <use ./images/Test/static.jpg>
 Package pdftex.def Info: ./images/Test/static.jpg  used on input line 107.
@@ -1523,34 +1519,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--122
 
  []
 
-[29] [30 <./images/Test/СЂРѕР»РёРєРё2.jpg> <./images/Test/СЃРєР°РјРµРєР°3.jpg> 
-<./images/Test/dress.jpg> <./images/Test/static.jpg>] [31]
-<./images/LSP1.jpg, id=477, 159.59625pt x 201.75375pt>
+[30] [31 <./images/Test/СЂРѕР»РёРєРё2.jpg> <./images/Test/СЃРєР°РјРµРєР°3.jpg> 
+<./images/Test/dress.jpg> <./images/Test/static.jpg>] [32]
+<./images/LSP1.jpg, id=483, 159.59625pt x 201.75375pt>
 File: ./images/LSP1.jpg Graphic file (type jpg)
 <use ./images/LSP1.jpg>
 Package pdftex.def Info: ./images/LSP1.jpg  used on input line 145.
 (pdftex.def)             Requested size: 72.02219pt x 91.04742pt.
-<./images/LSP2.jpg, id=478, 83.31125pt x 177.66376pt>
+<./images/LSP2.jpg, id=484, 83.31125pt x 177.66376pt>
 File: ./images/LSP2.jpg Graphic file (type jpg)
 <use ./images/LSP2.jpg>
 Package pdftex.def Info: ./images/LSP2.jpg  used on input line 149.
 (pdftex.def)             Requested size: 42.69919pt x 91.05435pt.
-<./images/LSP3.jpg, id=479, 152.57pt x 201.75375pt>
+<./images/LSP3.jpg, id=485, 152.57pt x 201.75375pt>
 File: ./images/LSP3.jpg Graphic file (type jpg)
 <use ./images/LSP3.jpg>
 Package pdftex.def Info: ./images/LSP3.jpg  used on input line 153.
 (pdftex.def)             Requested size: 68.85141pt x 91.04742pt.
-<./images/LSP4.jpg, id=480, 104.39pt x 169.63374pt>
+<./images/LSP4.jpg, id=486, 104.39pt x 169.63374pt>
 File: ./images/LSP4.jpg Graphic file (type jpg)
 <use ./images/LSP4.jpg>
 Package pdftex.def Info: ./images/LSP4.jpg  used on input line 157.
 (pdftex.def)             Requested size: 56.02728pt x 91.0451pt.
-<./images/LSP5.jpg, id=481, 96.36pt x 181.67876pt>
+<./images/LSP5.jpg, id=487, 96.36pt x 181.67876pt>
 File: ./images/LSP5.jpg Graphic file (type jpg)
 <use ./images/LSP5.jpg>
 Package pdftex.def Info: ./images/LSP5.jpg  used on input line 161.
 (pdftex.def)             Requested size: 48.29013pt x 91.0451pt.
-<./images/LSP6.jpg, id=482, 101.37875pt x 186.6975pt>
+<./images/LSP6.jpg, id=488, 101.37875pt x 186.6975pt>
 File: ./images/LSP6.jpg Graphic file (type jpg)
 <use ./images/LSP6.jpg>
 Package pdftex.def Info: ./images/LSP6.jpg  used on input line 165.
@@ -1583,7 +1579,7 @@ Overfull \hbox (29.84889pt too wide) in paragraph at lines 192--208
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32 <./images/LSP1.jpg> <./images/LSP2.jpg> <./images/LSP3.jpg> <./images/LSP4.
+[33 <./images/LSP1.jpg> <./images/LSP2.jpg> <./images/LSP3.jpg> <./images/LSP4.
 jpg> <./images/LSP5.jpg> <./images/LSP6.jpg>]
 Overfull \hbox (2.32805pt too wide) in paragraph at lines 227--227
 []|\T2A/cmr/m/n/14.4 PCK@0.05| 
@@ -1604,7 +1600,7 @@ Overfull \hbox (29.84889pt too wide) in paragraph at lines 225--241
  [][] 
  []
 
-[33]
+[34]
 Overfull \hbox (2.32805pt too wide) in paragraph at lines 265--265
 []|\T2A/cmr/m/n/14.4 PCK@0.05| 
  []
@@ -1652,31 +1648,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
-[34]
-<./images/results/PCK.png, id=515, 596.9502pt x 253.6677pt>
+[35]
+<./images/results/PCK.png, id=522, 611.4042pt x 268.1217pt>
 File: ./images/results/PCK.png Graphic file (type png)
 <use ./images/results/PCK.png>
 Package pdftex.def Info: ./images/results/PCK.png  used on input line 334.
-(pdftex.def)             Requested size: 455.24411pt x 193.45132pt.
-<./images/results/PDJ.png, id=516, 596.9502pt x 255.8358pt>
+(pdftex.def)             Requested size: 441.58734pt x 193.65706pt.
+<./images/results/PDJ.png, id=523, 611.4042pt x 270.2898pt>
 File: ./images/results/PDJ.png Graphic file (type png)
 <use ./images/results/PDJ.png>
 Package pdftex.def Info: ./images/results/PDJ.png  used on input line 341.
-(pdftex.def)             Requested size: 455.24411pt x 195.10477pt.
- [35 <./images/results/PCK.png>]
-<./images/results/AP.png, id=525, 617.9085pt x 253.6677pt>
+(pdftex.def)             Requested size: 441.58734pt x 195.22302pt.
+ [36 <./images/results/PCK.png>]
+<./images/results/AP.png, id=532, 632.3625pt x 268.1217pt>
 File: ./images/results/AP.png Graphic file (type png)
 <use ./images/results/AP.png>
 Package pdftex.def Info: ./images/results/AP.png  used on input line 352.
-(pdftex.def)             Requested size: 455.24411pt x 186.8867pt.
- [36 <./images/results/PDJ.png> <./images/results/AP.png>]) (./parts/Chapter5.t
+(pdftex.def)             Requested size: 441.58734pt x 187.23796pt.
+ [37 <./images/results/PDJ.png> <./images/results/AP.png>]) (./parts/Chapter5.t
 ex
 Overfull \hbox (1.10928pt too wide) in paragraph at lines 11--12
 []\T2A/cmr/m/n/14.4 Модели OpenPose и MMPose яв-ля-ют-ся луч-ши-ми ре-ше-ни-я-м
 и из пред-
  []
 
-[37]) (./main.bbl
+[38]) (./main.bbl
 Underfull \hbox (badness 3396) in paragraph at lines 12--18
 []\T2A/cmr/m/n/14.4 Human3.6M: Large Scale Datasets and Predictive Methods for
  []
@@ -1714,7 +1710,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 59.
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [38]
+) [39]
 Underfull \hbox (badness 1348) in paragraph at lines 76--79
 []\T2A/cmr/m/n/14.4 RMPE: Regional Multi-person Pose Estimation / Hao-Shu Fang,
 
@@ -1759,7 +1755,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--122
 g . com / 2020 / 12 /
  []
 
-[39]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 131--134
 []\T2A/cmr/m/it/14.4 Osokin, Daniil\T2A/cmr/m/n/14.4 . Real-time 3D Multi-perso
 n Pose Estimation
@@ -1806,7 +1802,7 @@ Underfull \hbox (badness 1484) in paragraph at lines 189--194
 \T2A/cmr/m/n/14.4 Networks / Alexander Toshev, Christian Szegedy // 2014 IEEE
  []
 
-[40]
+[41]
 Underfull \hbox (badness 1867) in paragraph at lines 208--212
 []\T2A/cmr/m/it/14.4 Contributors, MMAction2\T2A/cmr/m/n/14.4 . OpenMMLab's Nex
 t Generation Video
@@ -1829,7 +1825,7 @@ Underfull \hbox (badness 5817) in paragraph at lines 241--245
 \T2A/cmr/m/n/14.4 Inaccurate Annotation / Sam Johnson, Mark Everingham //
  []
 
-[41]
+[42]
 Underfull \hbox (badness 2556) in paragraph at lines 261--267
 \T2A/cmr/m/n/14.4 Poses / Manisha Verma, Sudhakar Kumawat, Yuta Nakashima,
  []
@@ -1839,23 +1835,23 @@ Underfull \hbox (badness 1122) in paragraph at lines 261--267
 \T2A/cmr/m/n/14.4 Shanmuganathan Raman // IEEE/CVF Conference on Computer
  []
 
-) [42] (./parts/Appendix.tex
-<./images/MPPose/19.jpeg, id=586, 915.42pt x 600.2425pt>
+) [43] (./parts/Appendix.tex
+<./images/MPPose/19.jpeg, id=594, 915.42pt x 600.2425pt>
 File: ./images/MPPose/19.jpeg Graphic file (type jpg)
 <use ./images/MPPose/19.jpeg>
 Package pdftex.def Info: ./images/MPPose/19.jpeg  used on input line 13.
 (pdftex.def)             Requested size: 227.62206pt x 149.2451pt.
-<./images/MPPose/23.jpeg, id=587, 1505.625pt x 1004.75375pt>
+<./images/MPPose/23.jpeg, id=595, 1505.625pt x 1004.75375pt>
 File: ./images/MPPose/23.jpeg Graphic file (type jpg)
 <use ./images/MPPose/23.jpeg>
 Package pdftex.def Info: ./images/MPPose/23.jpeg  used on input line 18.
 (pdftex.def)             Requested size: 227.62206pt x 151.88707pt.
-<./images/MPPose/36.jpeg, id=588, 963.6pt x 1284.8pt>
+<./images/MPPose/36.jpeg, id=596, 963.6pt x 1284.8pt>
 File: ./images/MPPose/36.jpeg Graphic file (type jpg)
 <use ./images/MPPose/36.jpeg>
 Package pdftex.def Info: ./images/MPPose/36.jpeg  used on input line 23.
 (pdftex.def)             Requested size: 170.70569pt x 227.62206pt.
-<./images/MPPose/33.jpeg, id=589, 963.6pt x 1284.8pt>
+<./images/MPPose/33.jpeg, id=597, 963.6pt x 1284.8pt>
 File: ./images/MPPose/33.jpeg Graphic file (type jpg)
 <use ./images/MPPose/33.jpeg>
 Package pdftex.def Info: ./images/MPPose/33.jpeg  used on input line 28.
@@ -1870,22 +1866,22 @@ Overfull \hbox (3.04219pt too wide) in paragraph at lines 11--31
 [] [] 
  []
 
-<./images/MoveNet/19.jpeg, id=590, 834.11626pt x 545.03625pt>
+<./images/MoveNet/19.jpeg, id=598, 834.11626pt x 545.03625pt>
 File: ./images/MoveNet/19.jpeg Graphic file (type jpg)
 <use ./images/MoveNet/19.jpeg>
 Package pdftex.def Info: ./images/MoveNet/19.jpeg  used on input line 38.
 (pdftex.def)             Requested size: 227.62206pt x 148.73358pt.
-<./images/MoveNet/23.jpeg, id=591, 833.1125pt x 557.08125pt>
+<./images/MoveNet/23.jpeg, id=599, 833.1125pt x 557.08125pt>
 File: ./images/MoveNet/23.jpeg Graphic file (type jpg)
 <use ./images/MoveNet/23.jpeg>
 Package pdftex.def Info: ./images/MoveNet/23.jpeg  used on input line 43.
 (pdftex.def)             Requested size: 227.62206pt x 152.19902pt.
-<./images/MoveNet/36.jpeg, id=592, 625.33624pt x 833.1125pt>
+<./images/MoveNet/36.jpeg, id=600, 625.33624pt x 833.1125pt>
 File: ./images/MoveNet/36.jpeg Graphic file (type jpg)
 <use ./images/MoveNet/36.jpeg>
 Package pdftex.def Info: ./images/MoveNet/36.jpeg  used on input line 48.
 (pdftex.def)             Requested size: 170.84683pt x 227.62206pt.
-<./images/MoveNet/33.jpeg, id=593, 625.33624pt x 834.11626pt>
+<./images/MoveNet/33.jpeg, id=601, 625.33624pt x 834.11626pt>
 File: ./images/MoveNet/33.jpeg Graphic file (type jpg)
 <use ./images/MoveNet/33.jpeg>
 Package pdftex.def Info: ./images/MoveNet/33.jpeg  used on input line 53.
@@ -1903,22 +1899,22 @@ Overfull \hbox (3.04219pt too wide) in paragraph at lines 36--56
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/OpenPose/19.jpeg, id=594, 915.42pt x 600.2425pt>
+<./images/OpenPose/19.jpeg, id=602, 915.42pt x 600.2425pt>
 File: ./images/OpenPose/19.jpeg Graphic file (type jpg)
 <use ./images/OpenPose/19.jpeg>
 Package pdftex.def Info: ./images/OpenPose/19.jpeg  used on input line 63.
 (pdftex.def)             Requested size: 227.62206pt x 149.2451pt.
-<./images/OpenPose/23.jpeg, id=595, 1505.625pt x 1004.75375pt>
+<./images/OpenPose/23.jpeg, id=603, 1505.625pt x 1004.75375pt>
 File: ./images/OpenPose/23.jpeg Graphic file (type jpg)
 <use ./images/OpenPose/23.jpeg>
 Package pdftex.def Info: ./images/OpenPose/23.jpeg  used on input line 68.
 (pdftex.def)             Requested size: 227.62206pt x 151.88707pt.
-<./images/OpenPose/36.jpeg, id=596, 963.6pt x 1284.8pt>
+<./images/OpenPose/36.jpeg, id=604, 963.6pt x 1284.8pt>
 File: ./images/OpenPose/36.jpeg Graphic file (type jpg)
 <use ./images/OpenPose/36.jpeg>
 Package pdftex.def Info: ./images/OpenPose/36.jpeg  used on input line 73.
 (pdftex.def)             Requested size: 170.70569pt x 227.62206pt.
-<./images/OpenPose/33.jpeg, id=597, 963.6pt x 1284.8pt>
+<./images/OpenPose/33.jpeg, id=605, 963.6pt x 1284.8pt>
 File: ./images/OpenPose/33.jpeg Graphic file (type jpg)
 <use ./images/OpenPose/33.jpeg>
 Package pdftex.def Info: ./images/OpenPose/33.jpeg  used on input line 78.
@@ -1936,22 +1932,22 @@ Overfull \hbox (3.04219pt too wide) in paragraph at lines 61--81
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images/MMPose/19.jpeg, id=598, 457.71pt x 300.12125pt>
+<./images/MMPose/19.jpeg, id=606, 457.71pt x 300.12125pt>
 File: ./images/MMPose/19.jpeg Graphic file (type jpg)
 <use ./images/MMPose/19.jpeg>
 Package pdftex.def Info: ./images/MMPose/19.jpeg  used on input line 88.
 (pdftex.def)             Requested size: 227.62206pt x 149.24968pt.
-<./images/MMPose/23.jpeg, id=599, 752.8125pt x 501.875pt>
+<./images/MMPose/23.jpeg, id=607, 752.8125pt x 501.875pt>
 File: ./images/MMPose/23.jpeg Graphic file (type jpg)
 <use ./images/MMPose/23.jpeg>
 Package pdftex.def Info: ./images/MMPose/23.jpeg  used on input line 93.
 (pdftex.def)             Requested size: 227.62206pt x 151.75064pt.
-<./images/MMPose/36.jpeg, id=600, 481.8pt x 642.4pt>
+<./images/MMPose/36.jpeg, id=608, 481.8pt x 642.4pt>
 File: ./images/MMPose/36.jpeg Graphic file (type jpg)
 <use ./images/MMPose/36.jpeg>
 Package pdftex.def Info: ./images/MMPose/36.jpeg  used on input line 98.
 (pdftex.def)             Requested size: 170.71304pt x 227.62206pt.
-<./images/MMPose/33.jpeg, id=601, 481.8pt x 642.4pt>
+<./images/MMPose/33.jpeg, id=609, 481.8pt x 642.4pt>
 File: ./images/MMPose/33.jpeg Graphic file (type jpg)
 <use ./images/MMPose/33.jpeg>
 Package pdftex.def Info: ./images/MMPose/33.jpeg  used on input line 103.
@@ -1969,38 +1965,29 @@ Overfull \hbox (3.04219pt too wide) in paragraph at lines 86--106
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [43 <./images/MPPose/19.jpeg> <./images/MPPose/23.jpeg> <./images/MPPose/36.j
-peg> <./images/MPPose/33.jpeg>] [44 <./images/MoveNet/19.jpeg> <./images/MoveNe
-t/23.jpeg> <./images/MoveNet/36.jpeg> <./images/MoveNet/33.jpeg>] [45 <./images
+) [44 <./images/MPPose/19.jpeg> <./images/MPPose/23.jpeg> <./images/MPPose/36.j
+peg> <./images/MPPose/33.jpeg>] [45 <./images/MoveNet/19.jpeg> <./images/MoveNe
+t/23.jpeg> <./images/MoveNet/36.jpeg> <./images/MoveNet/33.jpeg>] [46 <./images
 /OpenPose/19.jpeg> <./images/OpenPose/23.jpeg> <./images/OpenPose/36.jpeg> <./i
-mages/OpenPose/33.jpeg>] [46 <./images/MMPose/19.jpeg> <./images/MMPose/23.jpeg
+mages/OpenPose/33.jpeg>] [47 <./images/MMPose/19.jpeg> <./images/MMPose/23.jpeg
 > <./images/MMPose/36.jpeg> <./images/MMPose/33.jpeg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: AD13D887B26965D2E5D09A85DBFEF49D;4721.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 896DAF888D97A400F357F0079C92D215;4758
-(rerunfilecheck)             After:  AD13D887B26965D2E5D09A85DBFEF49D;4721.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 27536 strings out of 481239
- 485429 string characters out of 5920378
- 740083 words of memory out of 5000000
- 41976 multiletter control sequences out of 15000+600000
+ 27538 strings out of 481239
+ 485456 string characters out of 5920378
+ 740148 words of memory out of 5000000
+ 41977 multiletter control sequences out of 15000+600000
  547987 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,12n,62p,2112b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2009,22 +1996,25 @@ Here is how much of TeX's memory you used:
 /type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfti1728.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sftt1440.pfb>
-Output written on main.pdf (46 pages, 8368043 bytes).
+onts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfti1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb>
+
+Output written on main.pdf (47 pages, 8409029 bytes).
 PDF statistics:
- 715 PDF objects out of 1000 (max. 8388607)
- 569 compressed objects within 6 object streams
- 149 named destinations out of 1000 (max. 500000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 581 compressed objects within 6 object streams
+ 150 named destinations out of 1000 (max. 500000)
  452 words of extra memory for PDF output out of 10000 (max. 10000000)
 
