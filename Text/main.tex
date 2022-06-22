@@ -5,15 +5,24 @@
 
 %% for envirovemt "abstract" in class book
 %\newenvironment{abstract}{}{}
-%\usepackage{abstract}
+\usepackage{abstract}
 
 %% подключаем преамбулу, в ней содержатся подключение всех необходимых пакетов
 \input{include/preambule.tex}
 
 \begin{document}
     %% титульник
-    \input{include/title.tex}
+    %\input{include/title.tex}
+	%% *надпись над верхним колонтинулом*
+	%% в случае ненадобности можно удалить
+	\setcounter{page}{2}
+	\fancyfoot[c]{\thepage}
+	\fancyhead[L]{Исследование методов классификации движений человека}
+	\fancyhead[R]{}
     %% аннотоция
+    
+	\renewcommand{\abstractname}{\hfill \break \hfill \break}
+	%\renewcommand{\absnamepos}{empty}
     \input{parts/Annotation.tex}
     %содержание
     \tableofcontents{}
